@@ -1,0 +1,601 @@
+﻿id_registro,fecha,dia_semana,hora,turno,corredor_vial,barrio,longitud_tramo_km,capacidad_vial_veh_hora,flujo_vehicular_veh_hora,es_hora_pico,velocidad_promedio_kmh,tiempo_viaje_real_min,tiempo_viaje_libre_min,demora_adicional_min,indice_congestion,nivel_congestion,ciclo_semaforo_actual_seg,porcentaje_verde_actual,ciclo_semaforo_optimo_seg,porcentaje_verde_optimo,lineas_colectivo_corredor,frecuencia_colectivo_min,ocupacion_colectivo_pct,condicion_climatica,temperatura_c,incidente_vial,demora_incidente_min
+1,08/06/2024,Jueves,23,Noche (18-24h),Av. Colón,Nueva Córdoba,3.0,1500,756,No,32.3,5.6,3.6,2.0,0.5,Moderado,75,49,63,47,6,25,47,Nublado,9,Accidente leve,7
+2,05/12/2024,Miércoles,7,Mañana (6-12h),Av. Patria,Jardín,2.5,1500,1557,Sí,14.6,10.3,3.0,7.3,1.0,Crítico,75,36,90,55,5,8,99,Despejado,13,Ninguno,0
+3,13/05/2024,Viernes,13,Tarde (12-18h),Av. Fuerza Aérea,Cerro de las Rosas,1.5,1200,338,No,44.3,2.0,1.8,0.2,0.28,Bajo,60,31,51,29,7,38,63,Despejado,33,Obra en vía,6
+4,12/08/2024,Lunes,1,Madrugada (0-6h),Av. Poeta Lugones,Alta Córdoba,2.5,1000,542,No,30.7,4.9,3.0,1.9,0.54,Moderado,120,30,102,26,5,21,27,Nublado,28,Ninguno,0
+5,10/11/2024,Viernes,20,Noche (18-24h),Bv. San Juan,General Paz,2.0,1000,732,No,23.2,5.2,2.4,2.8,0.73,Alto,120,44,102,55,5,20,56,Lluvia,23,Ninguno,0
+6,29/07/2024,Jueves,12,Tarde (12-18h),Av. Poeta Lugones,Alta Córdoba,2.5,1000,439,No,33.3,4.5,3.0,1.5,0.44,Moderado,75,37,63,34,3,26,34,Despejado,28,Ninguno,0
+7,08/04/2024,Martes,17,Tarde (12-18h),Av. Fuerza Aérea,Cerro de las Rosas,1.5,1500,1211,Sí,23.8,3.8,1.8,2.0,0.81,Alto,90,33,108,44,5,8,84,Despejado,18,Ninguno,0
+8,09/06/2024,Lunes,7,Mañana (6-12h),Av. Fuerza Aérea,Cerro de las Rosas,1.5,1000,1763,Sí,5.0,18.0,1.8,16.2,1.0,Crítico,60,34,72,51,6,11,72,Nublado,24,Accidente grave,18
+9,10/12/2024,Domingo,20,Noche (18-24h),Bv. Los Granaderos,Villa El Libertador,2.0,1500,487,No,35.6,3.4,2.4,1.0,0.32,Bajo,75,42,63,36,3,36,39,Nublado,31,Ninguno,0
+10,30/09/2024,Lunes,19,Noche (18-24h),Bv. Los Granaderos,Villa El Libertador,2.0,1200,1489,Sí,6.8,17.6,2.4,15.2,1.0,Crítico,60,43,72,52,4,6,77,Despejado,34,Ninguno,0
+11,09/11/2024,Viernes,9,Mañana (6-12h),Av. Colón,Nueva Córdoba,3.0,1500,1048,Sí,23.1,7.8,3.6,4.2,0.7,Alto,120,35,144,48,4,13,77,Despejado,21,Ninguno,0
+12,13/05/2024,Viernes,14,Tarde (12-18h),Av. Colón,Nueva Córdoba,3.0,1800,521,No,36.6,4.9,3.6,1.3,0.29,Bajo,90,36,76,32,7,38,21,Despejado,30,Ninguno,0
+13,08/12/2024,Miércoles,6,Mañana (6-12h),Av. Maipú,Centro,2.5,1500,509,No,39.0,3.8,3.0,0.8,0.34,Bajo,75,38,63,36,4,27,34,Despejado,8,Accidente leve,4
+14,06/02/2024,Miércoles,9,Mañana (6-12h),Av. Fuerza Aérea,Cerro de las Rosas,1.5,1500,1241,Sí,23.3,3.9,1.8,2.1,0.83,Alto,75,52,90,66,6,12,77,Llovizna,20,Accidente leve,4
+15,02/02/2024,Sábado,16,Tarde (12-18h),Bv. Los Granaderos,Villa El Libertador,2.5,1800,239,No,50.0,3.0,3.0,0.0,0.13,Bajo,90,54,76,46,6,18,40,Nublado,33,Obra en vía,16
+16,21/12/2024,Miércoles,8,Mañana (6-12h),Av. Maipú,Centro,2.5,1000,931,Sí,19.7,7.6,3.0,4.6,0.93,Crítico,120,47,144,57,5,9,69,Despejado,33,Accidente leve,11
+17,25/01/2024,Domingo,19,Noche (18-24h),Bv. Los Granaderos,Villa El Libertador,1.5,1800,493,No,42.4,2.1,1.8,0.3,0.27,Bajo,75,50,63,44,5,17,46,Nublado,12,Accidente grave,18
+18,15/09/2024,Jueves,15,Tarde (12-18h),Av. Patria,Jardín,2.0,1500,603,No,37.5,3.2,2.4,0.8,0.4,Moderado,90,46,76,41,3,35,57,Nublado,23,Accidente leve,3
+19,11/08/2024,Lunes,12,Tarde (12-18h),Bv. San Juan,General Paz,3.0,1800,766,No,34.7,5.2,3.6,1.6,0.43,Moderado,75,41,63,39,5,20,66,Despejado,20,Ninguno,0
+20,17/07/2024,Viernes,19,Noche (18-24h),Av. Patria,Jardín,2.0,1000,944,Sí,16.7,7.2,2.4,4.8,0.94,Crítico,75,45,90,63,5,5,99,Despejado,34,Ninguno,0
+21,29/08/2024,Martes,9,Mañana (6-12h),Av. Fuerza Aérea,Cerro de las Rosas,1.5,1800,1682,Sí,16.4,5.5,1.8,3.7,0.93,Crítico,120,47,144,62,3,9,62,Despejado,23,Ninguno,0
+22,20/11/2024,Jueves,2,Madrugada (0-6h),Av. Duarte Quirós,Centro,1.5,1500,424,No,42.3,2.1,1.8,0.3,0.28,Bajo,120,45,102,36,4,35,48,Nublado,35,Ninguno,0
+23,28/05/2024,Martes,17,Tarde (12-18h),Bv. San Juan,General Paz,1.5,1800,1289,Sí,22.0,4.1,1.8,2.3,0.72,Alto,75,50,90,68,3,5,98,Despejado,20,Ninguno,0
+24,11/05/2024,Viernes,3,Madrugada (0-6h),Bv. Illia,Centro,3.0,1800,776,No,38.1,4.7,3.6,1.1,0.43,Moderado,120,37,102,30,7,28,58,Nublado,33,Ninguno,0
+25,01/06/2024,Viernes,11,Mañana (6-12h),Av. Poeta Lugones,Alta Córdoba,2.5,1200,894,No,24.8,6.0,3.0,3.0,0.74,Alto,120,40,102,50,4,24,29,Lluvia,29,Ninguno,0
+26,07/09/2024,Martes,4,Madrugada (0-6h),Av. Duarte Quirós,Centro,1.5,1000,304,No,37.4,2.4,1.8,0.6,0.3,Bajo,60,36,51,34,6,27,33,Despejado,27,Ninguno,0
+27,27/06/2024,Jueves,10,Mañana (6-12h),Bv. Los Granaderos,Villa El Libertador,3.0,1200,849,No,24.5,7.3,3.6,3.7,0.71,Alto,60,44,51,63,6,33,39,Llovizna,14,Ninguno,0
+28,23/08/2024,Lunes,0,Madrugada (0-6h),Av. Poeta Lugones,Alta Córdoba,3.0,1000,509,No,31.9,5.6,3.6,2.0,0.51,Moderado,75,31,63,25,3,32,28,Lluvia,15,Ninguno,0
+29,08/08/2024,Miércoles,10,Mañana (6-12h),Av. Poeta Lugones,Alta Córdoba,3.0,1200,379,No,41.3,4.4,3.6,0.8,0.32,Bajo,120,42,102,38,6,25,48,Lluvia,9,Ninguno,0
+30,19/05/2024,Lunes,7,Mañana (6-12h),Av. Duarte Quirós,Centro,2.5,1000,1561,Sí,5.0,30.0,3.0,27.0,1.0,Crítico,120,43,144,59,4,13,99,Llovizna,33,Ninguno,0
+31,03/08/2024,Lunes,7,Mañana (6-12h),Av. Duarte Quirós,Centro,3.0,1500,1049,Sí,24.4,7.4,3.6,3.8,0.7,Alto,75,45,90,64,5,9,86,Nublado,22,Ninguno,0
+32,17/09/2024,Martes,4,Madrugada (0-6h),Av. Patria,Jardín,2.0,1200,660,No,31.6,3.8,2.4,1.4,0.55,Moderado,75,30,63,25,7,19,66,Despejado,13,Ninguno,0
+33,10/11/2024,Miércoles,6,Mañana (6-12h),Av. Duarte Quirós,Centro,2.5,1500,889,No,28.9,5.2,3.0,2.2,0.59,Moderado,120,35,102,30,6,24,38,Despejado,13,Ninguno,0
+34,05/01/2024,Lunes,8,Mañana (6-12h),Bv. Illia,Centro,1.5,1000,1177,Sí,9.8,9.2,1.8,7.4,1.0,Crítico,90,32,108,45,5,12,85,Llovizna,10,Ninguno,0
+35,16/12/2024,Martes,10,Mañana (6-12h),Av. Maipú,Centro,1.5,1000,520,No,32.3,2.8,1.8,1.0,0.52,Moderado,90,52,76,51,7,23,32,Nublado,32,Ninguno,0
+36,12/10/2024,Lunes,21,Noche (18-24h),Av. Colón,Nueva Córdoba,2.5,1800,336,No,45.2,3.3,3.0,0.3,0.19,Bajo,90,37,76,28,6,24,59,Nublado,34,Obra en vía,10
+37,19/01/2024,Sábado,2,Madrugada (0-6h),Bv. Los Granaderos,Villa El Libertador,3.0,1800,364,No,42.8,4.2,3.6,0.6,0.2,Bajo,60,34,51,30,6,18,47,Nublado,25,Ninguno,0
+38,18/04/2024,Jueves,16,Tarde (12-18h),Bv. Illia,Centro,2.0,1800,571,No,35.6,3.4,2.4,1.0,0.32,Bajo,60,48,51,45,6,33,36,Despejado,28,Ninguno,0
+39,29/06/2024,Lunes,0,Madrugada (0-6h),Bv. Illia,Centro,1.5,1200,507,No,30.6,2.9,1.8,1.1,0.42,Moderado,60,30,51,25,6,29,54,Despejado,28,Ninguno,0
+40,09/11/2024,Sábado,11,Mañana (6-12h),Av. Patria,Jardín,2.5,1500,492,No,35.0,4.3,3.0,1.3,0.33,Bajo,120,33,102,30,2,25,61,Despejado,32,Accidente leve,4
+41,30/10/2024,Jueves,15,Tarde (12-18h),Av. Maipú,Centro,2.0,1800,864,No,29.7,4.0,2.4,1.6,0.48,Moderado,75,53,63,53,5,16,43,Despejado,10,Ninguno,0
+42,04/11/2024,Lunes,18,Noche (18-24h),Bv. San Juan,General Paz,1.5,1000,1448,Sí,5.0,18.0,1.8,16.2,1.0,Crítico,60,39,72,53,5,9,98,Despejado,21,Accidente grave,16
+43,10/09/2024,Jueves,3,Madrugada (0-6h),Av. Patria,Jardín,3.0,1200,332,No,39.8,4.5,3.6,0.9,0.28,Bajo,90,50,76,49,6,28,62,Nublado,12,Ninguno,0
+44,29/04/2024,Jueves,19,Noche (18-24h),Av. Poeta Lugones,Alta Córdoba,3.0,1000,946,Sí,15.5,11.6,3.6,8.0,0.95,Crítico,75,34,90,50,4,9,85,Despejado,35,Ninguno,0
+45,18/04/2024,Viernes,20,Noche (18-24h),Av. Vélez Sársfield,Alberdi,2.0,1200,330,No,37.4,3.2,2.4,0.8,0.28,Bajo,60,53,51,51,3,25,20,Nublado,23,Ninguno,0
+46,29/07/2024,Viernes,0,Madrugada (0-6h),Av. Vélez Sársfield,Alberdi,1.5,1200,489,No,36.8,2.4,1.8,0.6,0.41,Moderado,75,35,63,26,6,18,46,Despejado,34,Accidente grave,29
+47,15/09/2024,Martes,20,Noche (18-24h),Av. Maipú,Centro,3.0,1800,741,No,38.0,4.7,3.6,1.1,0.41,Moderado,75,41,63,34,2,39,39,Despejado,32,Ninguno,0
+48,28/11/2024,Domingo,0,Madrugada (0-6h),Bv. Los Granaderos,Villa El Libertador,2.0,1200,583,No,33.0,3.6,2.4,1.2,0.49,Moderado,60,43,51,39,2,32,20,Lluvia,31,Ninguno,0
+49,22/06/2024,Miércoles,8,Mañana (6-12h),Bv. Illia,Centro,2.5,1800,1405,Sí,22.8,6.6,3.0,3.6,0.78,Alto,75,38,90,45,6,7,93,Despejado,16,Obra en vía,9
+50,16/06/2024,Martes,5,Madrugada (0-6h),Av. Fuerza Aérea,Cerro de las Rosas,3.0,1500,371,No,39.3,4.6,3.6,1.0,0.25,Bajo,75,32,63,29,2,26,55,Nublado,9,Obra en vía,13
+51,25/06/2024,Jueves,8,Mañana (6-12h),Av. Fuerza Aérea,Cerro de las Rosas,3.0,1800,1088,Sí,24.8,7.3,3.6,3.7,0.6,Moderado,120,31,144,30,6,5,87,Nublado,26,Accidente grave,10
+52,23/03/2024,Miércoles,21,Noche (18-24h),Av. Fuerza Aérea,Cerro de las Rosas,3.0,1000,469,No,37.4,4.8,3.6,1.2,0.47,Moderado,120,36,102,27,5,34,60,Nublado,9,Ninguno,0
+53,23/09/2024,Martes,18,Noche (18-24h),Bv. Los Granaderos,Villa El Libertador,2.5,1200,1720,Sí,5.0,30.0,3.0,27.0,1.0,Crítico,75,44,90,52,4,12,68,Nublado,21,Ninguno,0
+54,10/03/2024,Sábado,2,Madrugada (0-6h),Av. Duarte Quirós,Centro,3.0,1200,430,No,41.1,4.4,3.6,0.8,0.36,Bajo,75,42,63,42,7,31,42,Despejado,11,Obra en vía,13
+55,23/01/2024,Domingo,4,Madrugada (0-6h),Av. Poeta Lugones,Alta Córdoba,2.5,1500,483,No,39.2,3.8,3.0,0.8,0.32,Bajo,60,40,51,38,4,17,57,Nublado,23,Ninguno,0
+56,12/05/2024,Viernes,23,Noche (18-24h),Av. Maipú,Centro,2.0,1000,691,No,24.7,4.9,2.4,2.5,0.69,Alto,60,50,51,61,5,30,49,Despejado,18,Ninguno,0
+57,16/04/2024,Miércoles,22,Noche (18-24h),Av. Maipú,Centro,1.5,1000,332,No,39.9,2.3,1.8,0.5,0.33,Bajo,120,48,102,40,4,19,51,Despejado,32,Ninguno,0
+58,31/03/2024,Viernes,10,Mañana (6-12h),Av. Colón,Nueva Córdoba,2.0,1200,488,No,31.3,3.8,2.4,1.4,0.41,Moderado,75,40,63,39,6,34,28,Llovizna,20,Ninguno,0
+59,16/09/2024,Sábado,2,Madrugada (0-6h),Av. Poeta Lugones,Alta Córdoba,2.5,1000,367,No,41.9,3.6,3.0,0.6,0.37,Bajo,90,52,76,51,2,23,22,Despejado,18,Ninguno,0
+60,25/01/2024,Lunes,12,Tarde (12-18h),Bv. Los Granaderos,Villa El Libertador,2.0,1000,867,No,13.9,8.6,2.4,6.2,0.87,Crítico,120,50,102,67,2,29,28,Despejado,9,Ninguno,0
+61,04/09/2024,Miércoles,9,Mañana (6-12h),Av. Patria,Jardín,1.5,1800,1505,Sí,16.0,5.6,1.8,3.8,0.84,Alto,120,53,144,62,2,5,99,Nublado,23,Ninguno,0
+62,06/03/2024,Jueves,22,Noche (18-24h),Av. Poeta Lugones,Alta Córdoba,1.5,1000,381,No,40.3,2.2,1.8,0.4,0.38,Bajo,60,46,51,38,7,16,39,Despejado,22,Ninguno,0
+63,03/04/2024,Domingo,19,Noche (18-24h),Av. Poeta Lugones,Alta Córdoba,2.0,1500,406,No,45.2,2.7,2.4,0.3,0.27,Bajo,90,36,76,27,5,30,31,Despejado,19,Ninguno,0
+64,15/11/2024,Viernes,2,Madrugada (0-6h),Bv. Los Granaderos,Villa El Libertador,2.5,1200,714,No,30.4,4.9,3.0,1.9,0.6,Moderado,90,50,76,49,3,26,33,Despejado,18,Ninguno,0
+65,20/07/2024,Jueves,15,Tarde (12-18h),Av. Patria,Jardín,2.5,1200,688,No,27.2,5.5,3.0,2.5,0.57,Moderado,120,35,102,35,5,23,47,Despejado,13,Accidente leve,8
+66,04/05/2024,Martes,12,Tarde (12-18h),Av. Colón,Nueva Córdoba,3.0,1800,369,No,46.3,3.9,3.6,0.3,0.2,Bajo,60,42,51,39,5,38,63,Despejado,22,Ninguno,0
+67,24/05/2024,Martes,16,Tarde (12-18h),Av. Patria,Jardín,2.5,1500,402,No,41.7,3.6,3.0,0.6,0.27,Bajo,60,38,51,36,7,25,55,Despejado,30,Ninguno,0
+68,15/05/2024,Lunes,22,Noche (18-24h),Av. Fuerza Aérea,Cerro de las Rosas,1.5,1800,337,No,46.3,1.9,1.8,0.1,0.19,Bajo,60,53,51,46,6,27,27,Despejado,25,Ninguno,0
+69,26/02/2024,Martes,14,Tarde (12-18h),Bv. Illia,Centro,2.0,1200,898,No,21.4,5.6,2.4,3.2,0.75,Alto,90,43,76,61,4,38,56,Despejado,15,Accidente grave,20
+70,06/07/2024,Viernes,4,Madrugada (0-6h),Av. Patria,Jardín,2.5,1000,546,No,32.7,4.6,3.0,1.6,0.55,Moderado,90,54,76,53,6,34,52,Despejado,34,Ninguno,0
+71,02/01/2024,Domingo,0,Madrugada (0-6h),Av. Maipú,Centro,2.0,1500,587,No,33.2,3.6,2.4,1.2,0.39,Bajo,90,49,76,40,7,28,61,Despejado,17,Ninguno,0
+72,29/08/2024,Lunes,21,Noche (18-24h),Av. Fuerza Aérea,Cerro de las Rosas,2.5,1500,736,No,35.0,4.3,3.0,1.3,0.49,Moderado,75,47,63,40,2,26,48,Nublado,33,Accidente leve,3
+73,25/02/2024,Martes,3,Madrugada (0-6h),Av. Fuerza Aérea,Cerro de las Rosas,2.0,1200,831,No,26.8,4.5,2.4,2.1,0.69,Alto,90,44,76,55,3,28,67,Despejado,26,Ninguno,0
+74,13/12/2024,Lunes,11,Mañana (6-12h),Av. Duarte Quirós,Centro,2.5,1500,435,No,39.5,3.8,3.0,0.8,0.29,Bajo,90,51,76,48,4,25,69,Llovizna,23,Ninguno,0
+75,24/11/2024,Sábado,20,Noche (18-24h),Av. Patria,Jardín,1.5,1500,334,No,43.1,2.1,1.8,0.3,0.22,Bajo,90,52,76,43,6,18,27,Despejado,34,Ninguno,0
+76,31/03/2024,Viernes,18,Noche (18-24h),Av. Poeta Lugones,Alta Córdoba,3.0,1200,920,Sí,27.6,6.5,3.6,2.9,0.77,Alto,90,31,108,48,4,12,63,Despejado,12,Ninguno,0
+77,10/05/2024,Viernes,23,Noche (18-24h),Av. Poeta Lugones,Alta Córdoba,2.0,1500,375,No,41.5,2.9,2.4,0.5,0.25,Bajo,75,37,63,29,5,15,62,Despejado,9,Ninguno,0
+78,21/01/2024,Sábado,7,Mañana (6-12h),Av. Fuerza Aérea,Cerro de las Rosas,2.5,1800,558,No,37.2,4.0,3.0,1.0,0.31,Bajo,60,31,51,29,2,24,40,Despejado,16,Accidente leve,8
+79,25/07/2024,Lunes,13,Tarde (12-18h),Av. Maipú,Centro,3.0,1800,512,No,34.4,5.2,3.6,1.6,0.28,Bajo,60,44,51,35,4,20,20,Nublado,10,Ninguno,0
+80,28/03/2024,Miércoles,19,Noche (18-24h),Av. Vélez Sársfield,Alberdi,2.0,1800,1116,Sí,23.6,5.1,2.4,2.7,0.62,Moderado,75,35,90,31,2,13,93,Llovizna,29,Ninguno,0
+81,07/12/2024,Jueves,5,Madrugada (0-6h),Av. Maipú,Centro,3.0,1500,753,No,29.5,6.1,3.6,2.5,0.5,Moderado,120,37,102,36,5,24,42,Despejado,25,Accidente leve,11
+82,25/11/2024,Jueves,11,Mañana (6-12h),Bv. Los Granaderos,Villa El Libertador,1.5,1200,832,No,23.4,3.8,1.8,2.0,0.69,Alto,90,52,76,64,7,37,24,Despejado,16,Accidente leve,8
+83,26/05/2024,Viernes,14,Tarde (12-18h),Bv. Los Granaderos,Villa El Libertador,2.0,1000,883,No,19.7,6.1,2.4,3.7,0.88,Crítico,75,37,63,53,6,22,27,Despejado,19,Ninguno,0
+84,02/04/2024,Viernes,3,Madrugada (0-6h),Bv. San Juan,General Paz,2.5,1200,511,No,35.7,4.2,3.0,1.2,0.43,Moderado,60,48,51,45,3,35,67,Nublado,34,Ninguno,0
+85,30/10/2024,Martes,5,Madrugada (0-6h),Av. Vélez Sársfield,Alberdi,1.5,1500,551,No,36.6,2.5,1.8,0.7,0.37,Bajo,60,53,51,47,5,34,26,Despejado,33,Accidente grave,17
+86,17/02/2024,Lunes,21,Noche (18-24h),Av. Vélez Sársfield,Alberdi,2.5,1000,715,No,29.1,5.2,3.0,2.2,0.72,Alto,60,38,51,43,7,21,68,Despejado,30,Ninguno,0
+87,05/01/2024,Jueves,10,Mañana (6-12h),Av. Fuerza Aérea,Cerro de las Rosas,3.0,1000,304,No,32.7,5.5,3.6,1.9,0.3,Bajo,120,50,102,41,4,25,31,Nublado,35,Accidente grave,15
+88,19/02/2024,Martes,8,Mañana (6-12h),Av. Duarte Quirós,Centro,3.0,1200,1050,Sí,23.9,7.5,3.6,3.9,0.88,Crítico,120,54,144,69,2,10,65,Despejado,19,Ninguno,0
+89,11/09/2024,Viernes,10,Mañana (6-12h),Av. Patria,Jardín,3.0,1000,571,No,33.6,5.4,3.6,1.8,0.57,Moderado,90,39,76,36,6,23,53,Despejado,21,Ninguno,0
+90,29/10/2024,Miércoles,14,Tarde (12-18h),Av. Poeta Lugones,Alta Córdoba,3.0,1500,459,No,38.5,4.7,3.6,1.1,0.31,Bajo,60,44,51,41,7,26,65,Nublado,23,Ninguno,0
+91,13/10/2024,Viernes,11,Mañana (6-12h),Av. Maipú,Centro,2.0,1000,337,No,35.9,3.3,2.4,0.9,0.34,Bajo,90,30,76,29,6,26,31,Despejado,26,Ninguno,0
+92,27/03/2024,Miércoles,13,Tarde (12-18h),Av. Vélez Sársfield,Alberdi,2.0,1000,709,No,26.9,4.5,2.4,2.1,0.71,Alto,60,38,51,57,2,37,67,Lluvia,29,Ninguno,0
+93,29/06/2024,Lunes,11,Mañana (6-12h),Av. Vélez Sársfield,Alberdi,2.5,1200,610,No,34.5,4.3,3.0,1.3,0.51,Moderado,90,40,76,37,5,25,49,Llovizna,12,Obra en vía,5
+94,27/06/2024,Martes,15,Tarde (12-18h),Av. Fuerza Aérea,Cerro de las Rosas,2.0,1500,397,No,42.5,2.8,2.4,0.4,0.26,Bajo,90,48,76,39,3,16,24,Nublado,8,Ninguno,0
+95,22/04/2024,Lunes,8,Mañana (6-12h),Bv. San Juan,General Paz,2.0,1500,1197,Sí,32.4,3.7,2.4,1.3,0.8,Alto,75,39,90,51,6,7,72,Despejado,29,Ninguno,0
+96,28/01/2024,Martes,23,Noche (18-24h),Av. Colón,Nueva Córdoba,1.5,1200,439,No,37.4,2.4,1.8,0.6,0.37,Bajo,75,43,63,36,7,38,56,Despejado,20,Ninguno,0
+97,25/10/2024,Jueves,5,Madrugada (0-6h),Bv. San Juan,General Paz,3.0,1000,359,No,38.6,4.7,3.6,1.1,0.36,Bajo,90,51,76,51,2,33,57,Nublado,22,Ninguno,0
+98,16/12/2024,Miércoles,0,Madrugada (0-6h),Av. Duarte Quirós,Centro,2.5,1000,527,No,30.9,4.9,3.0,1.9,0.53,Moderado,60,36,51,29,5,22,60,Nublado,10,Ninguno,0
+99,08/07/2024,Viernes,17,Tarde (12-18h),Av. Fuerza Aérea,Cerro de las Rosas,1.5,1800,1326,Sí,23.6,3.8,1.8,2.0,0.74,Alto,60,50,72,65,2,7,98,Despejado,30,Ninguno,0
+100,15/11/2024,Jueves,15,Tarde (12-18h),Av. Vélez Sársfield,Alberdi,2.5,1800,755,No,35.6,4.2,3.0,1.2,0.42,Moderado,90,44,76,42,5,27,34,Despejado,25,Ninguno,0
+101,20/05/2024,Viernes,9,Mañana (6-12h),Bv. San Juan,General Paz,1.5,1500,1094,Sí,24.1,3.7,1.8,1.9,0.73,Alto,60,34,72,50,6,13,61,Despejado,25,Ninguno,0
+102,03/12/2024,Viernes,4,Madrugada (0-6h),Bv. Los Granaderos,Villa El Libertador,2.0,1000,301,No,40.8,2.9,2.4,0.5,0.3,Bajo,75,31,63,31,6,32,54,Nublado,10,Ninguno,0
+103,27/05/2024,Jueves,14,Tarde (12-18h),Av. Fuerza Aérea,Cerro de las Rosas,3.0,1800,474,No,38.4,4.7,3.6,1.1,0.26,Bajo,120,53,102,50,6,38,39,Despejado,26,Obra en vía,18
+104,20/03/2024,Martes,7,Mañana (6-12h),Av. Colón,Nueva Córdoba,2.5,1500,1304,Sí,23.5,6.4,3.0,3.4,0.87,Crítico,90,37,108,54,3,12,74,Llovizna,29,Ninguno,0
+105,07/09/2024,Domingo,23,Noche (18-24h),Av. Fuerza Aérea,Cerro de las Rosas,1.5,1000,251,No,39.6,2.3,1.8,0.5,0.25,Bajo,120,35,102,27,6,33,45,Nublado,16,Accidente leve,8
+106,08/01/2024,Lunes,0,Madrugada (0-6h),Av. Colón,Nueva Córdoba,2.5,1200,734,No,25.7,5.8,3.0,2.8,0.61,Moderado,60,53,51,50,7,37,54,Despejado,8,Ninguno,0
+107,20/08/2024,Miércoles,11,Mañana (6-12h),Av. Poeta Lugones,Alta Córdoba,3.0,1500,429,No,39.2,4.6,3.6,1.0,0.29,Bajo,75,34,63,30,7,24,39,Despejado,10,Accidente leve,6
+108,09/05/2024,Lunes,10,Mañana (6-12h),Bv. San Juan,General Paz,2.0,1000,523,No,29.6,4.1,2.4,1.7,0.52,Moderado,90,51,76,47,2,34,53,Despejado,32,Accidente leve,7
+109,17/10/2024,Miércoles,19,Noche (18-24h),Av. Fuerza Aérea,Cerro de las Rosas,3.0,1800,1430,Sí,24.9,7.2,3.6,3.6,0.79,Alto,90,44,108,55,6,14,86,Llovizna,25,Ninguno,0
+110,16/01/2024,Viernes,17,Tarde (12-18h),Av. Fuerza Aérea,Cerro de las Rosas,3.0,1500,1194,Sí,25.4,7.1,3.6,3.5,0.8,Alto,120,38,144,51,6,10,66,Nublado,14,Ninguno,0
+111,17/04/2024,Miércoles,15,Tarde (12-18h),Av. Vélez Sársfield,Alberdi,1.5,1500,744,No,34.4,2.6,1.8,0.8,0.5,Moderado,60,41,51,33,6,18,45,Despejado,21,Ninguno,0
+112,25/10/2024,Miércoles,8,Mañana (6-12h),Av. Patria,Jardín,1.5,1000,1020,Sí,10.9,8.3,1.8,6.5,1.0,Crítico,120,32,144,40,7,8,75,Despejado,8,Obra en vía,12
+113,18/12/2024,Martes,23,Noche (18-24h),Av. Vélez Sársfield,Alberdi,1.5,1000,650,No,31.4,2.9,1.8,1.1,0.65,Alto,60,48,51,65,4,39,58,Nublado,27,Obra en vía,17
+114,30/03/2024,Lunes,12,Tarde (12-18h),Av. Vélez Sársfield,Alberdi,1.5,1500,686,No,31.1,2.9,1.8,1.1,0.46,Moderado,60,36,51,30,4,15,26,Despejado,33,Ninguno,0
+115,11/05/2024,Viernes,20,Noche (18-24h),Av. Fuerza Aérea,Cerro de las Rosas,2.0,1500,815,No,34.3,3.5,2.4,1.1,0.54,Moderado,60,44,51,44,6,31,32,Despejado,13,Ninguno,0
+116,05/07/2024,Viernes,6,Mañana (6-12h),Bv. Illia,Centro,3.0,1500,813,No,35.8,5.0,3.6,1.4,0.54,Moderado,120,47,102,47,6,27,20,Despejado,24,Ninguno,0
+117,22/05/2024,Jueves,11,Mañana (6-12h),Bv. San Juan,General Paz,1.5,1800,754,No,33.4,2.7,1.8,0.9,0.42,Moderado,90,39,76,35,5,34,41,Despejado,28,Accidente leve,5
+118,30/09/2024,Sábado,15,Tarde (12-18h),Av. Fuerza Aérea,Cerro de las Rosas,1.5,1500,183,No,44.0,2.0,1.8,0.2,0.12,Bajo,90,30,76,30,5,17,55,Nublado,33,Obra en vía,17
+119,24/11/2024,Lunes,11,Mañana (6-12h),Av. Patria,Jardín,1.5,1200,643,No,37.2,2.4,1.8,0.6,0.54,Moderado,60,47,51,43,3,25,49,Lluvia,29,Obra en vía,6
+120,21/03/2024,Martes,15,Tarde (12-18h),Av. Duarte Quirós,Centro,1.5,1500,670,No,32.3,2.8,1.8,1.0,0.45,Moderado,60,49,51,43,3,15,36,Despejado,31,Ninguno,0
+121,02/11/2024,Viernes,21,Noche (18-24h),Av. Poeta Lugones,Alta Córdoba,1.5,1800,708,No,35.7,2.5,1.8,0.7,0.39,Bajo,60,32,51,30,7,16,52,Despejado,27,Accidente grave,12
+122,26/07/2024,Jueves,22,Noche (18-24h),Av. Vélez Sársfield,Alberdi,2.0,1500,887,No,29.5,4.1,2.4,1.7,0.59,Moderado,75,34,63,31,5,19,49,Despejado,29,Ninguno,0
+123,24/12/2024,Jueves,23,Noche (18-24h),Av. Duarte Quirós,Centro,2.0,1800,869,No,34.4,3.5,2.4,1.1,0.48,Moderado,75,30,63,25,6,28,34,Llovizna,30,Ninguno,0
+124,24/06/2024,Viernes,8,Mañana (6-12h),Av. Poeta Lugones,Alta Córdoba,3.0,1200,1166,Sí,15.3,11.8,3.6,8.2,0.97,Crítico,60,46,72,59,6,9,86,Despejado,35,Accidente grave,28
+125,14/12/2024,Viernes,8,Mañana (6-12h),Av. Vélez Sársfield,Alberdi,1.5,1000,1253,Sí,5.0,18.0,1.8,16.2,1.0,Crítico,75,46,90,65,7,11,82,Nublado,27,Ninguno,0
+126,03/06/2024,Jueves,13,Tarde (12-18h),Bv. Los Granaderos,Villa El Libertador,2.5,1200,372,No,49.2,3.0,3.0,0.0,0.31,Bajo,90,30,76,26,6,33,47,Llovizna,16,Ninguno,0
+127,06/12/2024,Viernes,23,Noche (18-24h),Av. Poeta Lugones,Alta Córdoba,3.0,1000,591,No,29.8,6.0,3.6,2.4,0.59,Moderado,75,34,63,26,4,26,27,Despejado,26,Ninguno,0
+128,10/08/2024,Martes,14,Tarde (12-18h),Av. Colón,Nueva Córdoba,3.0,1000,864,No,25.2,7.1,3.6,3.5,0.86,Crítico,120,44,102,59,2,24,55,Despejado,29,Accidente grave,25
+129,06/02/2024,Viernes,12,Tarde (12-18h),Av. Patria,Jardín,1.5,1800,752,No,35.2,2.6,1.8,0.8,0.42,Moderado,75,38,63,38,5,27,61,Llovizna,34,Ninguno,0
+130,31/03/2024,Miércoles,13,Tarde (12-18h),Av. Duarte Quirós,Centro,1.5,1800,893,No,31.2,2.9,1.8,1.1,0.5,Moderado,120,39,102,37,4,37,43,Llovizna,19,Ninguno,0
+131,08/12/2024,Jueves,23,Noche (18-24h),Bv. San Juan,General Paz,2.0,1000,513,No,28.4,4.2,2.4,1.8,0.51,Moderado,60,40,51,33,3,32,36,Despejado,35,Ninguno,0
+132,23/04/2024,Jueves,7,Mañana (6-12h),Bv. Illia,Centro,2.0,1800,1579,Sí,22.5,5.3,2.4,2.9,0.88,Crítico,60,52,72,67,6,8,92,Nublado,18,Accidente leve,8
+133,20/02/2024,Jueves,21,Noche (18-24h),Av. Patria,Jardín,2.0,1800,354,No,44.1,2.7,2.4,0.3,0.2,Bajo,60,41,51,32,7,30,64,Despejado,31,Ninguno,0
+134,04/07/2024,Viernes,23,Noche (18-24h),Av. Poeta Lugones,Alta Córdoba,1.5,1200,532,No,28.9,3.1,1.8,1.3,0.44,Moderado,120,51,102,50,7,18,23,Despejado,21,Accidente leve,11
+135,21/03/2024,Lunes,14,Tarde (12-18h),Av. Fuerza Aérea,Cerro de las Rosas,2.5,1500,814,No,33.4,4.5,3.0,1.5,0.54,Moderado,120,37,102,28,6,17,42,Nublado,25,Accidente leve,10
+136,05/09/2024,Martes,22,Noche (18-24h),Av. Poeta Lugones,Alta Córdoba,3.0,1500,618,No,32.6,5.5,3.6,1.9,0.41,Moderado,120,48,102,47,6,37,30,Despejado,8,Ninguno,0
+137,09/07/2024,Martes,6,Mañana (6-12h),Av. Vélez Sársfield,Alberdi,2.0,1200,478,No,34.6,3.5,2.4,1.1,0.4,Moderado,120,33,102,29,3,36,38,Nublado,20,Ninguno,0
+138,27/11/2024,Domingo,23,Noche (18-24h),Bv. Illia,Centro,1.5,1800,323,No,43.0,2.1,1.8,0.3,0.18,Bajo,90,53,76,53,5,18,29,Nublado,32,Ninguno,0
+139,08/12/2024,Jueves,11,Mañana (6-12h),Bv. Illia,Centro,2.5,1000,556,No,33.3,4.5,3.0,1.5,0.56,Moderado,60,54,51,54,7,16,41,Nublado,22,Ninguno,0
+140,17/11/2024,Martes,23,Noche (18-24h),Bv. Los Granaderos,Villa El Libertador,3.0,1800,806,No,36.9,4.9,3.6,1.3,0.45,Moderado,120,31,102,25,5,27,57,Despejado,14,Ninguno,0
+141,02/10/2024,Viernes,9,Mañana (6-12h),Av. Patria,Jardín,3.0,1000,1151,Sí,7.7,23.4,3.6,19.8,1.0,Crítico,120,43,144,54,3,8,93,Despejado,10,Ninguno,0
+142,06/04/2024,Viernes,19,Noche (18-24h),Bv. Illia,Centro,2.0,1000,1469,Sí,5.0,24.0,2.4,21.6,1.0,Crítico,75,39,90,50,5,8,63,Nublado,19,Ninguno,0
+143,15/05/2024,Sábado,4,Madrugada (0-6h),Av. Duarte Quirós,Centro,2.0,1800,543,No,37.0,3.2,2.4,0.8,0.3,Bajo,120,43,102,40,2,25,63,Despejado,25,Ninguno,0
+144,24/03/2024,Martes,12,Tarde (12-18h),Bv. San Juan,General Paz,1.5,1000,826,No,21.5,4.2,1.8,2.4,0.83,Alto,75,54,63,70,2,20,67,Nublado,24,Obra en vía,17
+145,13/04/2024,Domingo,17,Tarde (12-18h),Av. Fuerza Aérea,Cerro de las Rosas,2.0,1000,240,No,40.7,2.9,2.4,0.5,0.24,Bajo,90,46,76,41,3,20,54,Despejado,31,Accidente leve,6
+146,18/09/2024,Martes,15,Tarde (12-18h),Av. Patria,Jardín,1.5,1500,606,No,35.1,2.6,1.8,0.8,0.4,Moderado,90,39,76,37,7,21,50,Nublado,10,Ninguno,0
+147,28/06/2024,Lunes,10,Mañana (6-12h),Av. Poeta Lugones,Alta Córdoba,3.0,1200,365,No,39.9,4.5,3.6,0.9,0.3,Bajo,120,36,102,33,3,36,60,Nublado,30,Ninguno,0
+148,02/11/2024,Jueves,2,Madrugada (0-6h),Av. Duarte Quirós,Centro,2.5,1500,577,No,41.4,3.6,3.0,0.6,0.38,Bajo,90,36,76,33,4,24,55,Despejado,14,Ninguno,0
+149,22/06/2024,Lunes,23,Noche (18-24h),Av. Fuerza Aérea,Cerro de las Rosas,1.5,1800,532,No,39.2,2.3,1.8,0.5,0.3,Bajo,75,54,63,49,6,22,44,Lluvia,8,Ninguno,0
+150,02/07/2024,Viernes,20,Noche (18-24h),Bv. Los Granaderos,Villa El Libertador,1.5,1800,599,No,37.7,2.4,1.8,0.6,0.33,Bajo,90,49,76,43,4,23,67,Nublado,26,Ninguno,0
+151,01/08/2024,Lunes,18,Noche (18-24h),Av. Duarte Quirós,Centro,3.0,1200,1641,Sí,5.0,36.0,3.6,32.4,1.0,Crítico,90,39,108,49,7,9,97,Nublado,25,Obra en vía,13
+152,29/01/2024,Lunes,19,Noche (18-24h),Av. Colón,Nueva Córdoba,3.0,1000,1300,Sí,6.3,28.6,3.6,25.0,1.0,Crítico,60,33,72,41,6,14,98,Despejado,35,Obra en vía,16
+153,03/09/2024,Viernes,6,Mañana (6-12h),Av. Fuerza Aérea,Cerro de las Rosas,2.5,1000,365,No,40.0,3.8,3.0,0.8,0.36,Bajo,90,50,76,49,4,25,44,Nublado,16,Accidente grave,27
+154,29/04/2024,Domingo,3,Madrugada (0-6h),Av. Vélez Sársfield,Alberdi,2.5,1800,518,No,38.4,3.9,3.0,0.9,0.29,Bajo,90,45,76,38,3,31,56,Llovizna,14,Accidente leve,8
+155,11/02/2024,Viernes,11,Mañana (6-12h),Bv. San Juan,General Paz,2.5,1800,480,No,43.8,3.4,3.0,0.4,0.27,Bajo,75,42,63,40,2,26,23,Nublado,34,Accidente grave,15
+156,12/11/2024,Viernes,8,Mañana (6-12h),Bv. Illia,Centro,3.0,1200,1135,Sí,19.6,9.2,3.6,5.6,0.95,Crítico,90,50,108,63,3,11,97,Nublado,27,Obra en vía,19
+157,11/09/2024,Domingo,22,Noche (18-24h),Bv. Los Granaderos,Villa El Libertador,1.5,1200,497,No,37.8,2.4,1.8,0.6,0.41,Moderado,120,46,102,45,2,38,29,Nublado,9,Accidente leve,6
+158,04/08/2024,Miércoles,5,Madrugada (0-6h),Av. Fuerza Aérea,Cerro de las Rosas,2.0,1000,442,No,36.0,3.3,2.4,0.9,0.44,Moderado,75,39,63,38,4,24,41,Despejado,11,Ninguno,0
+159,21/09/2024,Martes,20,Noche (18-24h),Av. Maipú,Centro,2.5,1800,859,No,37.4,4.0,3.0,1.0,0.48,Moderado,60,44,51,42,3,33,48,Nublado,23,Accidente leve,6
+160,19/02/2024,Viernes,0,Madrugada (0-6h),Av. Vélez Sársfield,Alberdi,1.5,1800,601,No,37.0,2.4,1.8,0.6,0.33,Bajo,60,50,51,49,7,29,40,Despejado,19,Obra en vía,7
+161,15/02/2024,Jueves,5,Madrugada (0-6h),Bv. Illia,Centro,3.0,1200,500,No,34.2,5.3,3.6,1.7,0.42,Moderado,75,54,63,52,6,15,45,Llovizna,9,Accidente leve,4
+162,03/02/2024,Viernes,16,Tarde (12-18h),Av. Poeta Lugones,Alta Córdoba,3.0,1200,887,No,22.4,8.0,3.6,4.4,0.74,Alto,90,34,76,48,7,17,63,Despejado,29,Accidente leve,6
+163,20/09/2024,Viernes,23,Noche (18-24h),Av. Maipú,Centro,1.5,1000,633,No,27.0,3.3,1.8,1.5,0.63,Moderado,75,49,63,47,3,21,55,Nublado,26,Ninguno,0
+164,15/02/2024,Viernes,6,Mañana (6-12h),Av. Fuerza Aérea,Cerro de las Rosas,1.5,1000,345,No,41.0,2.2,1.8,0.4,0.34,Bajo,120,51,102,43,4,17,69,Llovizna,12,Accidente grave,27
+165,20/11/2024,Martes,4,Madrugada (0-6h),Av. Patria,Jardín,1.5,1000,477,No,36.7,2.5,1.8,0.7,0.48,Moderado,60,31,51,25,3,22,34,Nublado,27,Ninguno,0
+166,08/06/2024,Lunes,4,Madrugada (0-6h),Av. Poeta Lugones,Alta Córdoba,2.5,1200,891,No,20.7,7.2,3.0,4.2,0.74,Alto,75,51,63,66,7,32,21,Despejado,8,Ninguno,0
+167,20/02/2024,Miércoles,16,Tarde (12-18h),Bv. Illia,Centro,2.5,1800,733,No,34.2,4.4,3.0,1.4,0.41,Moderado,60,33,51,25,2,21,33,Despejado,13,Ninguno,0
+168,20/08/2024,Domingo,19,Noche (18-24h),Bv. Illia,Centro,2.0,1800,510,No,36.9,3.3,2.4,0.9,0.28,Bajo,120,45,102,41,3,36,51,Despejado,18,Ninguno,0
+169,03/05/2024,Viernes,3,Madrugada (0-6h),Av. Maipú,Centro,2.5,1000,882,No,23.4,6.4,3.0,3.4,0.88,Crítico,120,42,102,51,3,32,47,Nublado,33,Ninguno,0
+170,09/01/2024,Lunes,3,Madrugada (0-6h),Av. Duarte Quirós,Centro,2.5,1000,345,No,37.4,4.0,3.0,1.0,0.34,Bajo,90,33,76,28,7,38,62,Nublado,18,Accidente leve,4
+171,04/03/2024,Lunes,18,Noche (18-24h),Av. Duarte Quirós,Centro,3.0,1500,1465,Sí,15.5,11.6,3.6,8.0,0.98,Crítico,120,31,144,40,2,12,60,Despejado,8,Ninguno,0
+172,15/09/2024,Jueves,13,Tarde (12-18h),Av. Duarte Quirós,Centro,2.5,1500,797,No,33.2,4.5,3.0,1.5,0.53,Moderado,90,54,76,53,6,18,58,Nublado,30,Ninguno,0
+173,04/02/2024,Jueves,11,Mañana (6-12h),Av. Duarte Quirós,Centro,2.0,1200,555,No,32.3,3.7,2.4,1.3,0.46,Moderado,60,37,51,28,7,38,37,Lluvia,35,Ninguno,0
+174,15/01/2024,Jueves,11,Mañana (6-12h),Bv. Illia,Centro,2.5,1200,711,No,26.1,5.7,3.0,2.7,0.59,Moderado,60,50,51,50,6,20,40,Nublado,23,Ninguno,0
+175,19/03/2024,Martes,14,Tarde (12-18h),Av. Patria,Jardín,3.0,1000,759,No,23.0,7.8,3.6,4.2,0.76,Alto,75,39,63,44,5,37,69,Nublado,15,Accidente grave,25
+176,04/09/2024,Miércoles,18,Noche (18-24h),Av. Duarte Quirós,Centro,1.5,1000,1599,Sí,5.0,18.0,1.8,16.2,1.0,Crítico,90,39,108,55,7,12,81,Despejado,15,Ninguno,0
+177,29/05/2024,Viernes,6,Mañana (6-12h),Av. Colón,Nueva Córdoba,3.0,1800,882,No,35.5,5.1,3.6,1.5,0.49,Moderado,75,41,63,36,6,15,43,Lluvia,23,Ninguno,0
+178,31/03/2024,Lunes,16,Tarde (12-18h),Av. Maipú,Centro,2.5,1800,466,No,40.6,3.7,3.0,0.7,0.26,Bajo,75,45,63,37,2,16,21,Despejado,9,Obra en vía,12
+179,02/08/2024,Martes,10,Mañana (6-12h),Av. Maipú,Centro,2.5,1000,506,No,33.8,4.4,3.0,1.4,0.51,Moderado,60,31,51,28,3,27,51,Despejado,8,Ninguno,0
+180,23/02/2024,Miércoles,16,Tarde (12-18h),Av. Patria,Jardín,2.5,1500,866,No,30.0,5.0,3.0,2.0,0.58,Moderado,90,38,76,38,2,37,33,Llovizna,25,Ninguno,0
+181,01/09/2024,Martes,5,Madrugada (0-6h),Av. Poeta Lugones,Alta Córdoba,1.5,1500,709,No,35.5,2.5,1.8,0.7,0.47,Moderado,60,47,51,41,7,30,38,Despejado,31,Ninguno,0
+182,28/09/2024,Sábado,1,Madrugada (0-6h),Bv. San Juan,General Paz,2.0,1800,185,No,45.1,2.7,2.4,0.3,0.1,Bajo,90,45,76,36,3,31,52,Nublado,33,Ninguno,0
+183,09/12/2024,Martes,0,Madrugada (0-6h),Bv. Illia,Centro,3.0,1000,557,No,32.2,5.6,3.6,2.0,0.56,Moderado,60,32,51,25,3,39,63,Nublado,29,Ninguno,0
+184,20/10/2024,Miércoles,13,Tarde (12-18h),Av. Patria,Jardín,2.5,1200,644,No,32.0,4.7,3.0,1.7,0.54,Moderado,75,35,63,31,4,24,54,Llovizna,9,Ninguno,0
+185,28/08/2024,Viernes,19,Noche (18-24h),Bv. Illia,Centro,1.5,1800,994,Sí,28.5,3.2,1.8,1.4,0.55,Moderado,75,52,90,48,7,10,96,Llovizna,26,Ninguno,0
+186,07/03/2024,Lunes,6,Mañana (6-12h),Av. Colón,Nueva Córdoba,1.5,1200,391,No,41.2,2.2,1.8,0.4,0.33,Bajo,75,33,63,33,6,26,21,Despejado,13,Accidente leve,3
+187,30/04/2024,Jueves,16,Tarde (12-18h),Av. Vélez Sársfield,Alberdi,2.5,1000,492,No,32.8,4.6,3.0,1.6,0.49,Moderado,90,42,76,41,7,38,44,Nublado,26,Ninguno,0
+188,29/10/2024,Lunes,5,Madrugada (0-6h),Av. Patria,Jardín,2.5,1200,462,No,35.9,4.2,3.0,1.2,0.38,Bajo,75,49,63,48,6,36,43,Despejado,25,Ninguno,0
+189,24/07/2024,Sábado,3,Madrugada (0-6h),Av. Maipú,Centro,2.0,1800,392,No,46.1,2.6,2.4,0.2,0.22,Bajo,90,32,76,25,4,37,30,Despejado,31,Ninguno,0
+190,25/03/2024,Lunes,17,Tarde (12-18h),Av. Poeta Lugones,Alta Córdoba,2.5,1500,916,Sí,28.6,5.2,3.0,2.2,0.61,Moderado,60,45,72,38,5,8,84,Llovizna,26,Ninguno,0
+191,24/09/2024,Lunes,23,Noche (18-24h),Bv. Los Granaderos,Villa El Libertador,2.5,1500,898,No,26.4,5.7,3.0,2.7,0.6,Moderado,75,49,63,47,6,22,68,Despejado,26,Ninguno,0
+192,01/01/2024,Jueves,10,Mañana (6-12h),Av. Duarte Quirós,Centro,1.5,1500,340,No,40.7,2.2,1.8,0.4,0.23,Bajo,120,41,102,38,3,17,48,Nublado,11,Ninguno,0
+193,07/03/2024,Viernes,0,Madrugada (0-6h),Bv. San Juan,General Paz,1.5,1500,364,No,43.2,2.1,1.8,0.3,0.24,Bajo,60,44,51,38,3,27,41,Nublado,8,Ninguno,0
+194,05/01/2024,Miércoles,19,Noche (18-24h),Bv. San Juan,General Paz,3.0,1800,1207,Sí,23.7,7.6,3.6,4.0,0.67,Alto,120,32,144,40,2,6,98,Despejado,22,Ninguno,0
+195,20/07/2024,Miércoles,3,Madrugada (0-6h),Av. Vélez Sársfield,Alberdi,2.5,1800,872,No,32.1,4.7,3.0,1.7,0.48,Moderado,120,30,102,25,2,33,56,Nublado,22,Accidente leve,4
+196,14/10/2024,Viernes,4,Madrugada (0-6h),Bv. San Juan,General Paz,1.5,1200,502,No,34.7,2.6,1.8,0.8,0.42,Moderado,75,46,63,37,7,15,51,Nublado,18,Ninguno,0
+197,25/06/2024,Miércoles,5,Madrugada (0-6h),Av. Duarte Quirós,Centro,2.5,1800,398,No,46.0,3.3,3.0,0.3,0.22,Bajo,60,34,51,32,3,21,39,Despejado,35,Ninguno,0
+198,27/04/2024,Miércoles,5,Madrugada (0-6h),Av. Duarte Quirós,Centro,2.5,1200,766,No,24.6,6.1,3.0,3.1,0.64,Moderado,75,30,63,25,6,35,50,Despejado,28,Ninguno,0
+199,16/01/2024,Martes,23,Noche (18-24h),Av. Vélez Sársfield,Alberdi,1.5,1200,598,No,32.9,2.7,1.8,0.9,0.5,Moderado,120,53,102,47,7,16,41,Lluvia,10,Ninguno,0
+200,15/10/2024,Miércoles,17,Tarde (12-18h),Av. Vélez Sársfield,Alberdi,3.0,1200,1036,Sí,20.8,8.7,3.6,5.1,0.86,Crítico,60,41,72,46,3,13,65,Despejado,25,Obra en vía,11
+201,26/01/2024,Martes,3,Madrugada (0-6h),Av. Colón,Nueva Córdoba,3.0,1200,665,No,28.7,6.3,3.6,2.7,0.55,Moderado,60,44,51,35,2,15,27,Nublado,30,Ninguno,0
+202,12/09/2024,Jueves,5,Madrugada (0-6h),Av. Fuerza Aérea,Cerro de las Rosas,3.0,1000,352,No,42.4,4.2,3.6,0.6,0.35,Bajo,75,31,63,25,6,26,37,Despejado,16,Ninguno,0
+203,23/12/2024,Viernes,14,Tarde (12-18h),Av. Colón,Nueva Córdoba,1.5,1800,789,No,34.4,2.6,1.8,0.8,0.44,Moderado,75,39,63,30,4,28,33,Despejado,28,Ninguno,0
+204,14/03/2024,Viernes,3,Madrugada (0-6h),Av. Vélez Sársfield,Alberdi,2.5,1800,583,No,42.8,3.5,3.0,0.5,0.32,Bajo,75,42,63,38,7,27,49,Nublado,24,Obra en vía,10
+205,25/10/2024,Jueves,6,Mañana (6-12h),Av. Duarte Quirós,Centro,2.0,1500,528,No,39.0,3.1,2.4,0.7,0.35,Bajo,75,39,63,31,7,34,63,Llovizna,33,Accidente leve,3
+206,09/11/2024,Sábado,1,Madrugada (0-6h),Av. Patria,Jardín,2.5,1200,222,No,41.1,3.6,3.0,0.6,0.18,Bajo,60,46,51,40,2,22,34,Despejado,8,Obra en vía,17
+207,19/09/2024,Sábado,4,Madrugada (0-6h),Av. Fuerza Aérea,Cerro de las Rosas,3.0,1000,311,No,38.3,4.7,3.6,1.1,0.31,Bajo,75,52,63,43,2,33,48,Despejado,33,Ninguno,0
+208,25/11/2024,Sábado,18,Noche (18-24h),Av. Fuerza Aérea,Cerro de las Rosas,1.5,1500,461,No,41.6,2.2,1.8,0.4,0.31,Bajo,60,44,51,36,3,19,21,Lluvia,9,Ninguno,0
+209,12/10/2024,Lunes,11,Mañana (6-12h),Bv. San Juan,General Paz,3.0,1500,534,No,34.7,5.2,3.6,1.6,0.36,Bajo,75,43,63,38,5,22,63,Nublado,20,Accidente leve,3
+210,18/01/2024,Miércoles,2,Madrugada (0-6h),Av. Poeta Lugones,Alta Córdoba,3.0,1800,819,No,32.5,5.5,3.6,1.9,0.46,Moderado,120,43,102,41,2,16,58,Lluvia,16,Ninguno,0
+211,03/06/2024,Jueves,17,Tarde (12-18h),Av. Fuerza Aérea,Cerro de las Rosas,3.0,1500,1709,Sí,9.7,18.6,3.6,15.0,1.0,Crítico,60,33,72,40,7,9,64,Despejado,23,Ninguno,0
+212,06/03/2024,Miércoles,5,Madrugada (0-6h),Av. Poeta Lugones,Alta Córdoba,2.5,1000,779,No,19.5,7.7,3.0,4.7,0.78,Alto,75,33,63,48,7,27,33,Lluvia,29,Ninguno,0
+213,15/12/2024,Jueves,7,Mañana (6-12h),Av. Colón,Nueva Córdoba,2.5,1200,1139,Sí,25.2,6.0,3.0,3.0,0.95,Crítico,75,35,90,51,4,9,78,Despejado,10,Ninguno,0
+214,12/03/2024,Domingo,15,Tarde (12-18h),Av. Vélez Sársfield,Alberdi,2.5,1500,412,No,45.6,3.3,3.0,0.3,0.27,Bajo,90,50,76,44,3,17,47,Despejado,22,Obra en vía,13
+215,19/02/2024,Lunes,17,Tarde (12-18h),Av. Poeta Lugones,Alta Córdoba,2.0,1200,1232,Sí,21.3,5.6,2.4,3.2,1.0,Crítico,120,37,144,45,6,12,68,Nublado,26,Ninguno,0
+216,14/05/2024,Martes,2,Madrugada (0-6h),Bv. San Juan,General Paz,2.5,1500,343,No,43.6,3.4,3.0,0.4,0.23,Bajo,120,43,102,37,6,15,21,Despejado,10,Ninguno,0
+217,09/11/2024,Domingo,4,Madrugada (0-6h),Av. Duarte Quirós,Centro,1.5,1500,250,No,43.0,2.1,1.8,0.3,0.17,Bajo,60,50,51,43,5,21,62,Nublado,34,Ninguno,0
+218,29/03/2024,Miércoles,23,Noche (18-24h),Av. Patria,Jardín,2.5,1500,472,No,39.3,3.8,3.0,0.8,0.31,Bajo,60,50,51,50,3,20,59,Nublado,20,Ninguno,0
+219,04/05/2024,Miércoles,17,Tarde (12-18h),Bv. Illia,Centro,2.5,1500,1465,Sí,17.1,8.8,3.0,5.8,0.98,Crítico,120,48,144,61,5,5,72,Llovizna,33,Ninguno,0
+220,28/12/2024,Sábado,6,Mañana (6-12h),Av. Colón,Nueva Córdoba,2.0,1200,238,No,37.3,3.2,2.4,0.8,0.2,Bajo,90,31,76,25,6,27,34,Despejado,28,Accidente leve,6
+221,30/07/2024,Lunes,1,Madrugada (0-6h),Av. Maipú,Centro,2.5,1800,860,No,32.0,4.7,3.0,1.7,0.48,Moderado,75,30,63,25,7,19,29,Despejado,25,Ninguno,0
+222,01/07/2024,Lunes,12,Tarde (12-18h),Av. Duarte Quirós,Centro,1.5,1200,627,No,37.5,2.4,1.8,0.6,0.52,Moderado,120,38,102,31,3,32,56,Despejado,35,Ninguno,0
+223,27/11/2024,Lunes,23,Noche (18-24h),Av. Colón,Nueva Córdoba,2.5,1200,659,No,33.3,4.5,3.0,1.5,0.55,Moderado,90,37,76,31,6,19,25,Despejado,8,Ninguno,0
+224,18/11/2024,Domingo,10,Mañana (6-12h),Bv. Los Granaderos,Villa El Libertador,1.5,1800,328,No,42.3,2.1,1.8,0.3,0.18,Bajo,90,36,76,27,4,32,52,Despejado,10,Ninguno,0
+225,25/01/2024,Lunes,16,Tarde (12-18h),Av. Colón,Nueva Córdoba,3.0,1500,439,No,37.5,4.8,3.6,1.2,0.29,Bajo,90,39,76,38,5,37,38,Lluvia,9,Ninguno,0
+226,28/05/2024,Miércoles,1,Madrugada (0-6h),Av. Duarte Quirós,Centro,1.5,1200,541,No,30.0,3.0,1.8,1.2,0.45,Moderado,120,30,102,25,6,15,63,Despejado,9,Accidente leve,3
+227,24/03/2024,Sábado,17,Tarde (12-18h),Av. Maipú,Centro,3.0,1800,182,No,44.3,4.1,3.6,0.5,0.1,Bajo,75,35,63,31,3,25,32,Nublado,9,Ninguno,0
+228,01/02/2024,Miércoles,19,Noche (18-24h),Av. Poeta Lugones,Alta Córdoba,3.0,1500,1219,Sí,18.1,9.9,3.6,6.3,0.81,Alto,90,52,108,61,3,6,83,Llovizna,24,Ninguno,0
+229,20/03/2024,Lunes,0,Madrugada (0-6h),Av. Fuerza Aérea,Cerro de las Rosas,3.0,1500,857,No,32.0,5.6,3.6,2.0,0.57,Moderado,120,35,102,35,6,29,30,Lluvia,13,Ninguno,0
+230,05/12/2024,Miércoles,13,Tarde (12-18h),Av. Maipú,Centro,2.5,1200,778,No,26.9,5.6,3.0,2.6,0.65,Alto,90,36,76,53,2,21,68,Llovizna,33,Accidente grave,11
+231,18/07/2024,Lunes,9,Mañana (6-12h),Av. Maipú,Centro,1.5,1000,1196,Sí,11.6,7.8,1.8,6.0,1.0,Crítico,75,40,90,59,6,10,89,Despejado,25,Ninguno,0
+232,10/05/2024,Jueves,21,Noche (18-24h),Av. Fuerza Aérea,Cerro de las Rosas,2.0,1000,489,No,31.4,3.8,2.4,1.4,0.49,Moderado,120,36,102,32,3,15,69,Nublado,26,Ninguno,0
+233,09/12/2024,Miércoles,15,Tarde (12-18h),Bv. San Juan,General Paz,2.5,1500,577,No,33.0,4.5,3.0,1.5,0.38,Bajo,75,49,63,41,2,20,33,Lluvia,26,Ninguno,0
+234,24/05/2024,Miércoles,11,Mañana (6-12h),Av. Vélez Sársfield,Alberdi,1.5,1800,405,No,39.4,2.3,1.8,0.5,0.22,Bajo,75,42,63,36,5,23,63,Llovizna,31,Ninguno,0
+235,29/08/2024,Viernes,22,Noche (18-24h),Av. Patria,Jardín,3.0,1200,754,No,31.3,5.8,3.6,2.2,0.63,Moderado,60,53,51,47,4,29,45,Despejado,10,Ninguno,0
+236,02/12/2024,Sábado,13,Tarde (12-18h),Av. Duarte Quirós,Centro,3.0,1200,593,No,33.8,5.3,3.6,1.7,0.49,Moderado,90,30,76,25,2,32,63,Lluvia,16,Accidente grave,24
+237,17/08/2024,Miércoles,23,Noche (18-24h),Av. Vélez Sársfield,Alberdi,2.0,1200,412,No,35.7,3.4,2.4,1.0,0.34,Bajo,120,37,102,29,5,37,50,Llovizna,26,Accidente leve,10
+238,24/09/2024,Miércoles,1,Madrugada (0-6h),Bv. Los Granaderos,Villa El Libertador,3.0,1000,756,No,24.5,7.3,3.6,3.7,0.76,Alto,75,36,63,53,7,16,64,Despejado,27,Ninguno,0
+239,06/04/2024,Sábado,5,Madrugada (0-6h),Av. Duarte Quirós,Centro,3.0,1800,502,No,38.9,4.6,3.6,1.0,0.28,Bajo,75,41,63,37,5,16,61,Llovizna,17,Ninguno,0
+240,03/08/2024,Sábado,13,Tarde (12-18h),Av. Vélez Sársfield,Alberdi,3.0,1000,427,No,36.3,5.0,3.6,1.4,0.43,Moderado,90,30,76,25,3,16,30,Despejado,8,Obra en vía,19
+241,30/07/2024,Viernes,14,Tarde (12-18h),Bv. Illia,Centro,1.5,1200,605,No,31.9,2.8,1.8,1.0,0.5,Moderado,75,51,63,49,2,18,24,Nublado,32,Accidente leve,5
+242,15/01/2024,Jueves,19,Noche (18-24h),Av. Patria,Jardín,2.0,1200,1025,Sí,18.5,6.5,2.4,4.1,0.85,Crítico,120,42,144,57,6,5,97,Despejado,14,Ninguno,0
+243,24/11/2024,Jueves,8,Mañana (6-12h),Bv. Illia,Centro,2.5,1500,1267,Sí,22.4,6.7,3.0,3.7,0.84,Alto,75,34,90,43,2,14,71,Nublado,19,Accidente leve,6
+244,21/06/2024,Domingo,0,Madrugada (0-6h),Av. Fuerza Aérea,Cerro de las Rosas,2.5,1200,504,No,32.0,4.7,3.0,1.7,0.42,Moderado,90,53,76,51,3,25,34,Despejado,19,Ninguno,0
+245,09/10/2024,Martes,8,Mañana (6-12h),Bv. San Juan,General Paz,1.5,1000,1450,Sí,5.0,18.0,1.8,16.2,1.0,Crítico,75,43,90,59,6,9,85,Lluvia,20,Ninguno,0
+246,20/11/2024,Martes,3,Madrugada (0-6h),Av. Poeta Lugones,Alta Córdoba,2.5,1200,485,No,39.2,3.8,3.0,0.8,0.4,Moderado,120,45,102,39,6,26,37,Nublado,32,Obra en vía,19
+247,13/01/2024,Lunes,6,Mañana (6-12h),Bv. Los Granaderos,Villa El Libertador,2.0,1800,875,No,37.7,3.2,2.4,0.8,0.49,Moderado,120,53,102,44,4,37,37,Despejado,30,Ninguno,0
+248,09/10/2024,Miércoles,10,Mañana (6-12h),Av. Maipú,Centro,3.0,1800,576,No,38.9,4.6,3.6,1.0,0.32,Bajo,90,41,76,41,3,20,35,Despejado,32,Ninguno,0
+249,11/07/2024,Jueves,23,Noche (18-24h),Av. Maipú,Centro,1.5,1000,306,No,42.2,2.1,1.8,0.3,0.31,Bajo,120,34,102,32,2,21,56,Despejado,28,Ninguno,0
+250,16/12/2024,Lunes,1,Madrugada (0-6h),Bv. San Juan,General Paz,2.0,1500,643,No,38.3,3.1,2.4,0.7,0.43,Moderado,120,47,102,43,7,30,55,Despejado,13,Ninguno,0
+251,08/10/2024,Martes,16,Tarde (12-18h),Av. Colón,Nueva Córdoba,2.5,1200,834,No,29.2,5.1,3.0,2.1,0.7,Alto,90,35,76,51,3,25,40,Nublado,16,Ninguno,0
+252,24/05/2024,Miércoles,10,Mañana (6-12h),Av. Maipú,Centro,2.0,1800,480,No,39.9,3.0,2.4,0.6,0.27,Bajo,75,46,63,44,5,35,38,Nublado,28,Ninguno,0
+253,23/07/2024,Domingo,16,Tarde (12-18h),Av. Duarte Quirós,Centro,1.5,1500,564,No,29.0,3.1,1.8,1.3,0.38,Bajo,75,33,63,28,5,34,38,Despejado,32,Ninguno,0
+254,02/09/2024,Domingo,7,Mañana (6-12h),Av. Poeta Lugones,Alta Córdoba,2.0,1000,477,No,32.8,3.7,2.4,1.3,0.48,Moderado,75,48,63,43,5,18,35,Nublado,30,Ninguno,0
+255,08/08/2024,Lunes,22,Noche (18-24h),Bv. Los Granaderos,Villa El Libertador,1.5,1800,419,No,41.3,2.2,1.8,0.4,0.23,Bajo,90,40,76,32,7,27,33,Despejado,21,Ninguno,0
+256,05/09/2024,Miércoles,6,Mañana (6-12h),Av. Poeta Lugones,Alta Córdoba,2.0,1500,853,No,37.0,3.2,2.4,0.8,0.57,Moderado,90,49,76,45,7,36,61,Lluvia,31,Ninguno,0
+257,30/12/2024,Viernes,6,Mañana (6-12h),Av. Vélez Sársfield,Alberdi,1.5,1200,880,No,20.3,4.4,1.8,2.6,0.73,Alto,75,40,63,52,6,29,26,Llovizna,28,Accidente leve,7
+258,27/04/2024,Jueves,19,Noche (18-24h),Av. Colón,Nueva Córdoba,3.0,1800,1446,Sí,13.7,13.1,3.6,9.5,0.8,Alto,90,52,108,70,2,13,79,Nublado,29,Ninguno,0
+259,04/10/2024,Viernes,3,Madrugada (0-6h),Av. Duarte Quirós,Centro,2.0,1800,369,No,41.2,2.9,2.4,0.5,0.2,Bajo,75,37,63,35,2,25,31,Despejado,23,Ninguno,0
+260,13/03/2024,Sábado,16,Tarde (12-18h),Av. Duarte Quirós,Centro,2.0,1000,476,No,38.9,3.1,2.4,0.7,0.48,Moderado,60,38,51,32,5,22,68,Lluvia,17,Ninguno,0
+261,25/12/2024,Miércoles,16,Tarde (12-18h),Av. Colón,Nueva Córdoba,2.5,1200,712,No,33.9,4.4,3.0,1.4,0.59,Moderado,120,43,102,42,4,25,41,Despejado,21,Ninguno,0
+262,31/05/2024,Viernes,11,Mañana (6-12h),Av. Colón,Nueva Córdoba,3.0,1200,769,No,30.0,6.0,3.6,2.4,0.64,Moderado,75,42,63,42,5,38,20,Nublado,27,Ninguno,0
+263,02/02/2024,Jueves,0,Madrugada (0-6h),Av. Colón,Nueva Córdoba,3.0,1800,731,No,36.9,4.9,3.6,1.3,0.41,Moderado,120,38,102,38,3,38,47,Llovizna,31,Ninguno,0
+264,11/06/2024,Lunes,15,Tarde (12-18h),Bv. San Juan,General Paz,2.5,1800,305,No,45.5,3.3,3.0,0.3,0.17,Bajo,60,42,51,36,2,29,23,Despejado,16,Ninguno,0
+265,21/12/2024,Jueves,18,Noche (18-24h),Av. Colón,Nueva Córdoba,3.0,1800,909,Sí,37.2,4.8,3.6,1.2,0.5,Moderado,75,47,90,42,3,8,92,Nublado,10,Ninguno,0
+266,20/09/2024,Lunes,12,Tarde (12-18h),Bv. San Juan,General Paz,2.5,1000,376,No,37.9,4.0,3.0,1.0,0.38,Bajo,90,38,76,34,3,37,46,Despejado,17,Ninguno,0
+267,12/08/2024,Martes,2,Madrugada (0-6h),Av. Fuerza Aérea,Cerro de las Rosas,2.0,1500,600,No,36.8,3.3,2.4,0.9,0.4,Moderado,120,54,102,45,5,29,57,Despejado,22,Accidente leve,11
+268,19/03/2024,Lunes,19,Noche (18-24h),Av. Vélez Sársfield,Alberdi,2.5,1000,1727,Sí,5.0,30.0,3.0,27.0,1.0,Crítico,90,48,108,66,2,9,90,Despejado,19,Ninguno,0
+269,19/06/2024,Martes,19,Noche (18-24h),Av. Duarte Quirós,Centro,2.0,1000,1339,Sí,5.0,24.0,2.4,21.6,1.0,Crítico,75,33,90,50,2,11,71,Despejado,16,Ninguno,0
+270,30/10/2024,Domingo,4,Madrugada (0-6h),Av. Patria,Jardín,3.0,1200,295,No,45.1,4.0,3.6,0.4,0.25,Bajo,90,43,76,42,4,25,35,Nublado,35,Ninguno,0
+271,28/06/2024,Sábado,22,Noche (18-24h),Bv. San Juan,General Paz,1.5,1200,465,No,37.5,2.4,1.8,0.6,0.39,Bajo,75,54,63,48,6,18,23,Llovizna,22,Accidente grave,18
+272,14/06/2024,Martes,11,Mañana (6-12h),Bv. Los Granaderos,Villa El Libertador,3.0,1800,554,No,38.0,4.7,3.6,1.1,0.31,Bajo,75,35,63,32,3,25,21,Despejado,21,Ninguno,0
+273,22/01/2024,Domingo,9,Mañana (6-12h),Av. Poeta Lugones,Alta Córdoba,3.0,1500,219,No,45.2,4.0,3.6,0.4,0.15,Bajo,75,31,63,29,4,31,62,Llovizna,20,Ninguno,0
+274,05/11/2024,Lunes,20,Noche (18-24h),Av. Colón,Nueva Córdoba,2.5,1000,747,No,19.9,7.5,3.0,4.5,0.75,Alto,75,35,63,53,2,19,43,Despejado,16,Ninguno,0
+275,10/11/2024,Martes,18,Noche (18-24h),Av. Fuerza Aérea,Cerro de las Rosas,2.0,1800,1239,Sí,26.4,4.5,2.4,2.1,0.69,Alto,90,53,108,65,3,11,85,Llovizna,9,Ninguno,0
+276,30/06/2024,Miércoles,10,Mañana (6-12h),Av. Duarte Quirós,Centro,3.0,1200,579,No,29.0,6.2,3.6,2.6,0.48,Moderado,60,33,51,28,6,36,38,Despejado,31,Ninguno,0
+277,24/02/2024,Lunes,23,Noche (18-24h),Av. Fuerza Aérea,Cerro de las Rosas,2.0,1800,495,No,43.6,2.8,2.4,0.4,0.28,Bajo,90,32,76,32,2,15,23,Nublado,32,Accidente leve,6
+278,24/11/2024,Miércoles,12,Tarde (12-18h),Av. Maipú,Centro,2.0,1800,774,No,38.8,3.1,2.4,0.7,0.43,Moderado,120,38,102,36,3,27,66,Despejado,23,Accidente leve,10
+279,30/12/2024,Jueves,17,Tarde (12-18h),Bv. San Juan,General Paz,2.0,1500,1234,Sí,24.9,4.8,2.4,2.4,0.82,Alto,75,51,90,62,4,8,99,Despejado,29,Accidente leve,5
+280,08/07/2024,Viernes,6,Mañana (6-12h),Bv. Los Granaderos,Villa El Libertador,1.5,1800,645,No,37.1,2.4,1.8,0.6,0.36,Bajo,120,44,102,40,3,21,52,Nublado,11,Ninguno,0
+281,22/11/2024,Viernes,22,Noche (18-24h),Av. Colón,Nueva Córdoba,3.0,1200,399,No,32.8,5.5,3.6,1.9,0.33,Bajo,90,34,76,27,7,29,34,Despejado,32,Ninguno,0
+282,04/01/2024,Domingo,20,Noche (18-24h),Bv. Illia,Centro,3.0,1200,273,No,43.7,4.1,3.6,0.5,0.23,Bajo,90,54,76,54,6,33,55,Nublado,29,Accidente leve,11
+283,25/02/2024,Jueves,13,Tarde (12-18h),Bv. Los Granaderos,Villa El Libertador,2.0,1800,768,No,41.2,2.9,2.4,0.5,0.43,Moderado,90,50,76,49,7,26,21,Llovizna,35,Ninguno,0
+284,15/07/2024,Viernes,5,Madrugada (0-6h),Av. Duarte Quirós,Centro,2.0,1500,566,No,35.7,3.4,2.4,1.0,0.38,Bajo,90,46,76,41,5,15,62,Llovizna,33,Ninguno,0
+285,30/09/2024,Viernes,15,Tarde (12-18h),Av. Fuerza Aérea,Cerro de las Rosas,3.0,1000,831,No,19.8,9.1,3.6,5.5,0.83,Alto,75,42,63,61,4,21,61,Despejado,19,Ninguno,0
+286,01/02/2024,Viernes,12,Tarde (12-18h),Av. Colón,Nueva Córdoba,2.0,1500,657,No,34.7,3.5,2.4,1.1,0.44,Moderado,120,36,102,33,2,38,48,Despejado,34,Ninguno,0
+287,06/10/2024,Martes,1,Madrugada (0-6h),Av. Vélez Sársfield,Alberdi,2.0,1500,454,No,44.2,2.7,2.4,0.3,0.3,Bajo,120,48,102,44,6,37,34,Despejado,8,Ninguno,0
+288,23/11/2024,Jueves,10,Mañana (6-12h),Av. Patria,Jardín,2.0,1500,455,No,36.0,3.3,2.4,0.9,0.3,Bajo,60,48,51,42,6,25,45,Despejado,20,Ninguno,0
+289,01/08/2024,Viernes,2,Madrugada (0-6h),Av. Maipú,Centro,2.0,1200,600,No,29.7,4.0,2.4,1.6,0.5,Moderado,120,36,102,29,6,30,20,Despejado,19,Ninguno,0
+290,13/05/2024,Jueves,7,Mañana (6-12h),Av. Colón,Nueva Córdoba,1.5,1200,1146,Sí,14.6,6.2,1.8,4.4,0.96,Crítico,90,37,108,49,3,8,93,Nublado,30,Ninguno,0
+291,18/05/2024,Sábado,21,Noche (18-24h),Av. Patria,Jardín,2.5,1500,487,No,42.8,3.5,3.0,0.5,0.32,Bajo,60,40,51,38,4,16,24,Despejado,29,Ninguno,0
+292,03/08/2024,Miércoles,23,Noche (18-24h),Av. Maipú,Centro,1.5,1800,830,No,33.2,2.7,1.8,0.9,0.46,Moderado,120,51,102,49,2,24,29,Despejado,13,Ninguno,0
+293,19/04/2024,Martes,13,Tarde (12-18h),Av. Maipú,Centro,1.5,1000,388,No,34.3,2.6,1.8,0.8,0.39,Bajo,120,30,102,30,2,16,28,Nublado,11,Ninguno,0
+294,07/02/2024,Lunes,20,Noche (18-24h),Av. Patria,Jardín,2.0,1200,304,No,41.2,2.9,2.4,0.5,0.25,Bajo,90,53,76,45,5,27,53,Despejado,8,Ninguno,0
+295,10/01/2024,Martes,17,Tarde (12-18h),Av. Duarte Quirós,Centro,2.5,1800,975,Sí,32.7,4.6,3.0,1.6,0.54,Moderado,90,35,108,30,6,12,75,Nublado,8,Ninguno,0
+296,17/03/2024,Jueves,5,Madrugada (0-6h),Av. Vélez Sársfield,Alberdi,2.5,1500,810,No,25.5,5.9,3.0,2.9,0.54,Moderado,90,30,76,28,2,19,25,Llovizna,32,Accidente leve,11
+297,03/08/2024,Miércoles,5,Madrugada (0-6h),Bv. Los Granaderos,Villa El Libertador,1.5,1000,795,No,18.7,4.8,1.8,3.0,0.8,Alto,75,31,63,42,2,27,65,Despejado,9,Ninguno,0
+298,18/09/2024,Viernes,17,Tarde (12-18h),Av. Maipú,Centro,2.0,1000,1234,Sí,15.3,7.8,2.4,5.4,1.0,Crítico,120,37,144,56,4,9,69,Despejado,33,Accidente grave,22
+299,02/06/2024,Miércoles,4,Madrugada (0-6h),Av. Vélez Sársfield,Alberdi,1.5,1200,855,No,25.6,3.5,1.8,1.7,0.71,Alto,120,52,102,62,5,17,42,Nublado,30,Ninguno,0
+300,11/01/2024,Viernes,17,Tarde (12-18h),Av. Fuerza Aérea,Cerro de las Rosas,2.0,1200,1540,Sí,11.0,10.9,2.4,8.5,1.0,Crítico,120,41,144,53,5,14,84,Nublado,11,Ninguno,0
+301,10/05/2024,Martes,13,Tarde (12-18h),Av. Duarte Quirós,Centro,2.5,1500,674,No,29.5,5.1,3.0,2.1,0.45,Moderado,90,46,76,39,3,39,34,Nublado,16,Ninguno,0
+302,03/03/2024,Domingo,20,Noche (18-24h),Av. Fuerza Aérea,Cerro de las Rosas,2.5,1200,445,No,40.1,3.7,3.0,0.7,0.37,Bajo,90,34,76,28,3,15,57,Llovizna,10,Ninguno,0
+303,09/03/2024,Martes,18,Noche (18-24h),Av. Fuerza Aérea,Cerro de las Rosas,2.0,1800,1518,Sí,22.4,5.4,2.4,3.0,0.84,Alto,60,42,72,57,4,8,88,Despejado,16,Ninguno,0
+304,17/06/2024,Sábado,9,Mañana (6-12h),Av. Duarte Quirós,Centro,3.0,1800,317,No,41.4,4.3,3.6,0.7,0.18,Bajo,60,31,51,29,7,26,26,Despejado,24,Obra en vía,11
+305,18/07/2024,Miércoles,5,Madrugada (0-6h),Av. Colón,Nueva Córdoba,2.5,1000,501,No,35.3,4.2,3.0,1.2,0.5,Moderado,75,48,63,47,5,17,27,Despejado,35,Obra en vía,10
+306,17/11/2024,Martes,16,Tarde (12-18h),Av. Vélez Sársfield,Alberdi,1.5,1800,803,No,32.3,2.8,1.8,1.0,0.45,Moderado,120,51,102,49,6,16,64,Nublado,18,Ninguno,0
+307,08/05/2024,Domingo,15,Tarde (12-18h),Av. Fuerza Aérea,Cerro de las Rosas,1.5,1500,326,No,35.1,2.6,1.8,0.8,0.22,Bajo,90,51,76,45,3,31,32,Nublado,17,Ninguno,0
+308,03/01/2024,Miércoles,22,Noche (18-24h),Bv. Illia,Centro,2.5,1200,682,No,27.6,5.4,3.0,2.4,0.57,Moderado,120,32,102,31,6,16,44,Nublado,10,Ninguno,0
+309,04/06/2024,Viernes,4,Madrugada (0-6h),Av. Maipú,Centro,1.5,1500,740,No,32.7,2.8,1.8,1.0,0.49,Moderado,75,49,63,40,6,31,47,Despejado,21,Ninguno,0
+310,24/12/2024,Lunes,1,Madrugada (0-6h),Av. Maipú,Centro,2.5,1000,401,No,39.2,3.8,3.0,0.8,0.4,Moderado,75,48,63,46,7,32,30,Nublado,12,Accidente leve,4
+311,26/12/2024,Domingo,21,Noche (18-24h),Av. Vélez Sársfield,Alberdi,3.0,1200,166,No,42.2,4.3,3.6,0.7,0.14,Bajo,120,44,102,40,2,21,41,Despejado,15,Ninguno,0
+312,01/12/2024,Lunes,19,Noche (18-24h),Av. Patria,Jardín,3.0,1500,1171,Sí,21.9,8.2,3.6,4.6,0.78,Alto,120,47,144,55,4,10,78,Despejado,12,Ninguno,0
+313,10/03/2024,Sábado,2,Madrugada (0-6h),Bv. San Juan,General Paz,1.5,1200,530,No,31.2,2.9,1.8,1.1,0.44,Moderado,75,35,63,33,7,15,64,Llovizna,22,Ninguno,0
+314,06/05/2024,Lunes,13,Tarde (12-18h),Bv. San Juan,General Paz,2.0,1500,856,No,32.2,3.7,2.4,1.3,0.57,Moderado,60,52,51,43,4,18,47,Nublado,16,Ninguno,0
+315,30/03/2024,Martes,6,Mañana (6-12h),Bv. Illia,Centro,1.5,1500,845,No,32.0,2.8,1.8,1.0,0.56,Moderado,60,36,51,31,4,19,46,Nublado,18,Accidente leve,5
+316,25/11/2024,Miércoles,18,Noche (18-24h),Av. Maipú,Centro,3.0,1000,1452,Sí,5.0,36.0,3.6,32.4,1.0,Crítico,90,40,108,59,5,9,90,Llovizna,29,Ninguno,0
+317,27/06/2024,Viernes,20,Noche (18-24h),Av. Maipú,Centro,3.0,1800,729,No,36.4,4.9,3.6,1.3,0.4,Moderado,90,40,76,35,7,25,34,Despejado,15,Ninguno,0
+318,06/01/2024,Viernes,7,Mañana (6-12h),Bv. San Juan,General Paz,2.5,1800,1135,Sí,28.0,5.4,3.0,2.4,0.63,Moderado,90,46,108,44,3,8,68,Despejado,15,Ninguno,0
+319,16/04/2024,Martes,15,Tarde (12-18h),Bv. San Juan,General Paz,2.5,1500,489,No,44.2,3.4,3.0,0.4,0.33,Bajo,120,40,102,40,3,17,68,Llovizna,27,Accidente leve,11
+320,12/05/2024,Lunes,19,Noche (18-24h),Av. Duarte Quirós,Centro,1.5,1200,1492,Sí,10.8,8.3,1.8,6.5,1.0,Crítico,75,49,90,58,6,12,90,Despejado,14,Ninguno,0
+321,23/01/2024,Lunes,12,Tarde (12-18h),Bv. Illia,Centro,1.5,1800,731,No,41.8,2.2,1.8,0.4,0.41,Moderado,90,41,76,33,4,33,67,Llovizna,20,Ninguno,0
+322,20/10/2024,Lunes,18,Noche (18-24h),Av. Colón,Nueva Córdoba,1.5,1800,1307,Sí,21.7,4.1,1.8,2.3,0.73,Alto,75,39,90,56,6,5,77,Nublado,28,Ninguno,0
+323,26/03/2024,Viernes,21,Noche (18-24h),Av. Fuerza Aérea,Cerro de las Rosas,3.0,1000,346,No,39.0,4.6,3.6,1.0,0.35,Bajo,90,32,76,25,3,32,44,Lluvia,20,Obra en vía,16
+324,02/03/2024,Lunes,17,Tarde (12-18h),Av. Maipú,Centro,2.5,1000,1248,Sí,8.0,18.8,3.0,15.8,1.0,Crítico,120,49,144,63,3,5,87,Nublado,13,Ninguno,0
+325,30/08/2024,Viernes,7,Mañana (6-12h),Av. Patria,Jardín,1.5,1200,1171,Sí,19.7,4.6,1.8,2.8,0.98,Crítico,120,50,144,62,2,7,89,Despejado,21,Accidente leve,10
+326,22/03/2024,Martes,23,Noche (18-24h),Av. Maipú,Centro,2.5,1200,479,No,34.1,4.4,3.0,1.4,0.4,Moderado,90,41,76,41,6,26,37,Despejado,27,Ninguno,0
+327,19/09/2024,Martes,23,Noche (18-24h),Av. Maipú,Centro,1.5,1800,792,No,34.2,2.6,1.8,0.8,0.44,Moderado,120,49,102,49,3,31,40,Nublado,14,Ninguno,0
+328,25/12/2024,Miércoles,13,Tarde (12-18h),Bv. Los Granaderos,Villa El Libertador,1.5,1500,549,No,32.8,2.7,1.8,0.9,0.37,Bajo,120,37,102,37,4,21,20,Despejado,16,Ninguno,0
+329,25/06/2024,Viernes,13,Tarde (12-18h),Av. Vélez Sársfield,Alberdi,1.5,1800,864,No,31.1,2.9,1.8,1.1,0.48,Moderado,90,36,76,34,6,28,54,Nublado,23,Ninguno,0
+330,04/07/2024,Viernes,7,Mañana (6-12h),Bv. Illia,Centro,3.0,1800,1252,Sí,28.5,6.3,3.6,2.7,0.7,Alto,120,43,144,55,6,12,71,Despejado,27,Ninguno,0
+331,22/07/2024,Jueves,17,Tarde (12-18h),Av. Fuerza Aérea,Cerro de las Rosas,1.5,1000,1286,Sí,8.0,11.2,1.8,9.4,1.0,Crítico,60,40,72,52,6,5,99,Despejado,24,Obra en vía,12
+332,22/06/2024,Martes,13,Tarde (12-18h),Av. Fuerza Aérea,Cerro de las Rosas,1.5,1500,734,No,30.3,3.0,1.8,1.2,0.49,Moderado,60,33,51,25,7,16,27,Despejado,18,Ninguno,0
+333,16/04/2024,Miércoles,7,Mañana (6-12h),Av. Patria,Jardín,2.5,1500,1243,Sí,17.4,8.6,3.0,5.6,0.83,Alto,120,49,144,60,2,8,87,Llovizna,31,Ninguno,0
+334,11/11/2024,Domingo,8,Mañana (6-12h),Bv. Illia,Centro,2.5,1200,221,No,42.9,3.5,3.0,0.5,0.18,Bajo,60,36,51,32,6,16,54,Nublado,21,Obra en vía,17
+335,21/09/2024,Viernes,0,Madrugada (0-6h),Bv. San Juan,General Paz,1.5,1200,625,No,29.9,3.0,1.8,1.2,0.52,Moderado,60,37,51,33,4,31,49,Nublado,11,Ninguno,0
+336,13/06/2024,Miércoles,23,Noche (18-24h),Bv. San Juan,General Paz,2.5,1200,884,No,29.5,5.1,3.0,2.1,0.74,Alto,75,38,63,57,2,33,36,Despejado,25,Ninguno,0
+337,10/10/2024,Viernes,23,Noche (18-24h),Bv. Los Granaderos,Villa El Libertador,1.5,1500,533,No,35.9,2.5,1.8,0.7,0.36,Bajo,75,46,63,42,7,38,54,Despejado,12,Accidente leve,10
+338,22/06/2024,Miércoles,1,Madrugada (0-6h),Bv. Los Granaderos,Villa El Libertador,2.0,1500,776,No,34.4,3.5,2.4,1.1,0.52,Moderado,60,46,51,39,6,35,27,Despejado,35,Obra en vía,12
+339,05/08/2024,Viernes,16,Tarde (12-18h),Bv. San Juan,General Paz,1.5,1200,472,No,39.1,2.3,1.8,0.5,0.39,Bajo,60,39,51,35,4,33,45,Nublado,14,Obra en vía,14
+340,15/08/2024,Martes,9,Mañana (6-12h),Av. Duarte Quirós,Centro,3.0,1800,1489,Sí,23.4,7.7,3.6,4.1,0.83,Alto,90,33,108,46,3,8,91,Nublado,29,Obra en vía,9
+341,10/01/2024,Miércoles,17,Tarde (12-18h),Av. Patria,Jardín,2.0,1000,1431,Sí,5.0,24.0,2.4,21.6,1.0,Crítico,120,42,144,52,4,9,61,Despejado,13,Ninguno,0
+342,26/05/2024,Jueves,10,Mañana (6-12h),Bv. Illia,Centro,1.5,1200,780,No,24.7,3.6,1.8,1.8,0.65,Alto,75,43,63,48,7,15,23,Llovizna,17,Ninguno,0
+343,12/11/2024,Lunes,6,Mañana (6-12h),Bv. Illia,Centro,2.5,1500,605,No,34.7,4.3,3.0,1.3,0.4,Moderado,75,39,63,36,6,21,44,Lluvia,13,Accidente leve,4
+344,09/07/2024,Viernes,6,Mañana (6-12h),Av. Poeta Lugones,Alta Córdoba,3.0,1000,498,No,32.8,5.5,3.6,1.9,0.5,Moderado,60,39,51,31,3,22,45,Despejado,26,Accidente leve,10
+345,07/03/2024,Jueves,3,Madrugada (0-6h),Av. Patria,Jardín,2.5,1200,401,No,36.2,4.1,3.0,1.1,0.33,Bajo,120,43,102,41,2,17,32,Llovizna,23,Ninguno,0
+346,02/04/2024,Domingo,18,Noche (18-24h),Av. Duarte Quirós,Centro,2.0,1800,361,No,45.1,2.7,2.4,0.3,0.2,Bajo,60,49,51,40,3,28,52,Nublado,13,Ninguno,0
+347,06/06/2024,Viernes,11,Mañana (6-12h),Av. Maipú,Centro,2.5,1200,535,No,35.4,4.2,3.0,1.2,0.45,Moderado,120,37,102,32,4,18,37,Lluvia,28,Obra en vía,6
+348,18/03/2024,Jueves,10,Mañana (6-12h),Bv. Los Granaderos,Villa El Libertador,3.0,1500,395,No,44.4,4.1,3.6,0.5,0.26,Bajo,60,30,51,27,2,15,60,Llovizna,16,Ninguno,0
+349,30/05/2024,Jueves,3,Madrugada (0-6h),Av. Vélez Sársfield,Alberdi,2.0,1000,538,No,30.6,3.9,2.4,1.5,0.54,Moderado,60,42,51,33,6,26,66,Despejado,28,Ninguno,0
+350,10/07/2024,Jueves,15,Tarde (12-18h),Av. Vélez Sársfield,Alberdi,2.0,1000,684,No,30.0,4.0,2.4,1.6,0.68,Alto,60,48,51,57,5,33,43,Despejado,17,Ninguno,0
+351,21/12/2024,Domingo,2,Madrugada (0-6h),Bv. Illia,Centro,3.0,1200,525,No,35.7,5.0,3.6,1.4,0.44,Moderado,60,52,51,48,5,33,48,Despejado,34,Obra en vía,10
+352,12/09/2024,Lunes,22,Noche (18-24h),Av. Fuerza Aérea,Cerro de las Rosas,2.0,1500,557,No,34.6,3.5,2.4,1.1,0.37,Bajo,60,31,51,26,5,35,65,Despejado,33,Ninguno,0
+353,15/07/2024,Sábado,9,Mañana (6-12h),Av. Poeta Lugones,Alta Córdoba,1.5,1000,379,No,41.6,2.2,1.8,0.4,0.38,Bajo,90,41,76,35,5,34,58,Despejado,20,Ninguno,0
+354,23/10/2024,Martes,23,Noche (18-24h),Av. Fuerza Aérea,Cerro de las Rosas,2.0,1800,758,No,34.9,3.4,2.4,1.0,0.42,Moderado,60,37,51,28,6,21,58,Nublado,11,Ninguno,0
+355,25/07/2024,Lunes,16,Tarde (12-18h),Av. Fuerza Aérea,Cerro de las Rosas,1.5,1500,664,No,35.3,2.5,1.8,0.7,0.44,Moderado,60,50,51,43,6,30,53,Despejado,25,Ninguno,0
+356,23/03/2024,Martes,11,Mañana (6-12h),Av. Vélez Sársfield,Alberdi,1.5,1200,494,No,40.9,2.2,1.8,0.4,0.41,Moderado,90,46,76,40,2,38,63,Nublado,28,Ninguno,0
+357,28/10/2024,Jueves,23,Noche (18-24h),Bv. Illia,Centro,3.0,1800,567,No,37.4,4.8,3.6,1.2,0.32,Bajo,75,40,63,36,7,18,33,Nublado,18,Accidente leve,11
+358,13/07/2024,Jueves,5,Madrugada (0-6h),Av. Fuerza Aérea,Cerro de las Rosas,2.5,1200,718,No,30.4,4.9,3.0,1.9,0.6,Moderado,90,47,76,41,6,18,40,Despejado,19,Ninguno,0
+359,21/11/2024,Jueves,5,Madrugada (0-6h),Av. Patria,Jardín,2.5,1500,732,No,31.3,4.8,3.0,1.8,0.49,Moderado,120,30,102,30,4,29,29,Nublado,35,Ninguno,0
+360,30/11/2024,Jueves,6,Mañana (6-12h),Av. Poeta Lugones,Alta Córdoba,2.0,1800,705,No,40.2,3.0,2.4,0.6,0.39,Bajo,120,40,102,34,6,26,65,Llovizna,32,Accidente leve,8
+361,06/08/2024,Lunes,16,Tarde (12-18h),Av. Fuerza Aérea,Cerro de las Rosas,3.0,1500,617,No,32.1,5.6,3.6,2.0,0.41,Moderado,90,37,76,28,6,31,69,Lluvia,14,Ninguno,0
+362,19/11/2024,Domingo,1,Madrugada (0-6h),Bv. Los Granaderos,Villa El Libertador,1.5,1000,433,No,34.6,2.6,1.8,0.8,0.43,Moderado,90,40,76,39,4,23,57,Llovizna,9,Accidente leve,7
+363,13/04/2024,Miércoles,0,Madrugada (0-6h),Av. Poeta Lugones,Alta Córdoba,2.5,1200,845,No,28.6,5.2,3.0,2.2,0.7,Alto,120,39,102,52,3,30,57,Llovizna,26,Ninguno,0
+364,15/06/2024,Lunes,4,Madrugada (0-6h),Av. Poeta Lugones,Alta Córdoba,1.5,1200,353,No,43.6,2.1,1.8,0.3,0.29,Bajo,60,35,51,27,3,37,31,Despejado,30,Ninguno,0
+365,11/12/2024,Martes,21,Noche (18-24h),Av. Poeta Lugones,Alta Córdoba,1.5,1800,689,No,38.4,2.3,1.8,0.5,0.38,Bajo,90,41,76,34,5,39,20,Nublado,21,Ninguno,0
+366,13/09/2024,Viernes,5,Madrugada (0-6h),Av. Duarte Quirós,Centro,1.5,1200,613,No,25.3,3.6,1.8,1.8,0.51,Moderado,75,47,63,39,6,20,43,Nublado,29,Obra en vía,18
+367,19/08/2024,Martes,11,Mañana (6-12h),Av. Fuerza Aérea,Cerro de las Rosas,2.0,1500,888,No,33.9,3.5,2.4,1.1,0.59,Moderado,60,43,51,43,5,28,44,Despejado,8,Ninguno,0
+368,03/09/2024,Jueves,3,Madrugada (0-6h),Av. Patria,Jardín,1.5,1800,321,No,43.9,2.1,1.8,0.3,0.18,Bajo,75,43,63,41,7,30,68,Despejado,24,Accidente leve,11
+369,08/09/2024,Domingo,2,Madrugada (0-6h),Av. Maipú,Centro,3.0,1800,412,No,41.4,4.3,3.6,0.7,0.23,Bajo,60,33,51,31,4,32,53,Lluvia,33,Ninguno,0
+370,03/02/2024,Miércoles,10,Mañana (6-12h),Av. Colón,Nueva Córdoba,2.5,1000,461,No,34.8,4.3,3.0,1.3,0.46,Moderado,60,30,51,25,3,24,59,Despejado,12,Ninguno,0
+371,09/11/2024,Jueves,1,Madrugada (0-6h),Bv. San Juan,General Paz,1.5,1000,373,No,39.3,2.3,1.8,0.5,0.37,Bajo,120,48,102,41,7,33,29,Nublado,14,Ninguno,0
+372,23/06/2024,Martes,12,Tarde (12-18h),Av. Colón,Nueva Córdoba,1.5,1800,547,No,36.4,2.5,1.8,0.7,0.3,Bajo,120,47,102,38,3,35,68,Despejado,8,Ninguno,0
+373,22/08/2024,Viernes,4,Madrugada (0-6h),Av. Fuerza Aérea,Cerro de las Rosas,2.5,1500,416,No,42.0,3.6,3.0,0.6,0.28,Bajo,90,40,76,37,2,17,69,Despejado,16,Ninguno,0
+374,01/04/2024,Viernes,4,Madrugada (0-6h),Av. Fuerza Aérea,Cerro de las Rosas,3.0,1000,589,No,27.9,6.5,3.6,2.9,0.59,Moderado,90,36,76,30,3,26,40,Despejado,27,Ninguno,0
+375,28/06/2024,Miércoles,12,Tarde (12-18h),Bv. San Juan,General Paz,3.0,1200,736,No,34.4,5.2,3.6,1.6,0.61,Moderado,60,34,51,27,7,20,62,Despejado,17,Ninguno,0
+376,09/10/2024,Miércoles,17,Tarde (12-18h),Av. Duarte Quirós,Centro,1.5,1200,1729,Sí,5.0,18.0,1.8,16.2,1.0,Crítico,75,49,90,68,7,11,76,Nublado,17,Obra en vía,10
+377,16/05/2024,Jueves,3,Madrugada (0-6h),Av. Patria,Jardín,2.0,1800,334,No,44.0,2.7,2.4,0.3,0.19,Bajo,90,34,76,30,7,24,69,Despejado,26,Accidente leve,8
+378,31/08/2024,Jueves,9,Mañana (6-12h),Av. Patria,Jardín,2.5,1000,1525,Sí,5.0,30.0,3.0,27.0,1.0,Crítico,60,42,72,53,6,14,76,Llovizna,20,Accidente leve,9
+379,27/07/2024,Viernes,2,Madrugada (0-6h),Bv. Los Granaderos,Villa El Libertador,2.5,1200,619,No,32.0,4.7,3.0,1.7,0.52,Moderado,75,53,63,48,2,38,45,Despejado,25,Ninguno,0
+380,18/09/2024,Domingo,18,Noche (18-24h),Av. Duarte Quirós,Centro,2.0,1800,451,No,36.7,3.3,2.4,0.9,0.25,Bajo,90,44,76,40,3,15,68,Despejado,16,Obra en vía,18
+381,29/12/2024,Martes,4,Madrugada (0-6h),Av. Patria,Jardín,2.0,1000,629,No,30.2,4.0,2.4,1.6,0.63,Moderado,90,44,76,43,5,33,26,Nublado,25,Ninguno,0
+382,26/05/2024,Miércoles,21,Noche (18-24h),Av. Fuerza Aérea,Cerro de las Rosas,2.5,1200,670,No,32.7,4.6,3.0,1.6,0.56,Moderado,90,37,76,32,5,26,33,Nublado,16,Ninguno,0
+383,07/02/2024,Miércoles,17,Tarde (12-18h),Av. Colón,Nueva Córdoba,3.0,1200,1786,Sí,5.0,36.0,3.6,32.4,1.0,Crítico,60,34,72,50,6,7,94,Lluvia,9,Ninguno,0
+384,03/04/2024,Jueves,2,Madrugada (0-6h),Av. Colón,Nueva Córdoba,2.5,1800,616,No,39.9,3.8,3.0,0.8,0.34,Bajo,60,53,51,44,7,35,38,Nublado,8,Ninguno,0
+385,30/03/2024,Martes,13,Tarde (12-18h),Av. Patria,Jardín,1.5,1200,658,No,33.6,2.7,1.8,0.9,0.55,Moderado,75,37,63,33,2,33,42,Despejado,18,Accidente leve,4
+386,01/04/2024,Jueves,13,Tarde (12-18h),Bv. San Juan,General Paz,3.0,1000,381,No,36.3,5.0,3.6,1.4,0.38,Bajo,60,51,51,50,6,32,22,Nublado,30,Ninguno,0
+387,27/02/2024,Jueves,2,Madrugada (0-6h),Av. Duarte Quirós,Centro,3.0,1000,737,No,24.1,7.5,3.6,3.9,0.74,Alto,90,44,76,62,7,28,31,Despejado,9,Ninguno,0
+388,03/11/2024,Martes,19,Noche (18-24h),Av. Patria,Jardín,2.5,1200,1383,Sí,9.7,15.5,3.0,12.5,1.0,Crítico,120,33,144,40,5,9,67,Nublado,14,Ninguno,0
+389,17/07/2024,Viernes,3,Madrugada (0-6h),Av. Fuerza Aérea,Cerro de las Rosas,2.0,1800,894,No,32.2,3.7,2.4,1.3,0.5,Moderado,120,47,102,40,2,24,64,Llovizna,13,Ninguno,0
+390,08/02/2024,Viernes,23,Noche (18-24h),Av. Duarte Quirós,Centro,2.5,1200,742,No,28.0,5.4,3.0,2.4,0.62,Moderado,120,31,102,25,7,36,20,Despejado,29,Accidente leve,7
+391,01/06/2024,Lunes,1,Madrugada (0-6h),Av. Vélez Sársfield,Alberdi,1.5,1200,842,No,29.4,3.1,1.8,1.3,0.7,Alto,60,53,51,58,4,34,55,Despejado,33,Ninguno,0
+392,04/05/2024,Jueves,18,Noche (18-24h),Bv. Los Granaderos,Villa El Libertador,1.5,1500,1630,Sí,13.8,6.5,1.8,4.7,1.0,Crítico,120,38,144,57,4,8,96,Llovizna,10,Ninguno,0
+393,30/11/2024,Jueves,1,Madrugada (0-6h),Bv. San Juan,General Paz,3.0,1000,710,No,26.6,6.8,3.6,3.2,0.71,Alto,75,42,63,56,2,21,60,Despejado,34,Ninguno,0
+394,17/07/2024,Lunes,15,Tarde (12-18h),Av. Patria,Jardín,1.5,1200,572,No,30.4,3.0,1.8,1.2,0.48,Moderado,90,52,76,44,7,25,59,Nublado,33,Ninguno,0
+395,22/07/2024,Martes,10,Mañana (6-12h),Av. Colón,Nueva Córdoba,1.5,1800,391,No,42.5,2.1,1.8,0.3,0.22,Bajo,60,31,51,29,6,24,49,Llovizna,21,Ninguno,0
+396,09/08/2024,Viernes,15,Tarde (12-18h),Av. Patria,Jardín,3.0,1000,538,No,31.8,5.7,3.6,2.1,0.54,Moderado,60,47,51,43,5,29,45,Nublado,25,Ninguno,0
+397,22/12/2024,Martes,23,Noche (18-24h),Av. Colón,Nueva Córdoba,2.0,1500,823,No,30.4,3.9,2.4,1.5,0.55,Moderado,60,34,51,29,2,32,43,Nublado,21,Ninguno,0
+398,01/10/2024,Martes,9,Mañana (6-12h),Av. Vélez Sársfield,Alberdi,2.5,1500,1393,Sí,20.4,7.4,3.0,4.4,0.93,Crítico,60,31,72,41,6,14,74,Despejado,31,Ninguno,0
+399,12/07/2024,Lunes,16,Tarde (12-18h),Av. Poeta Lugones,Alta Córdoba,2.0,1800,836,No,30.3,4.0,2.4,1.6,0.46,Moderado,90,49,76,49,4,18,57,Lluvia,19,Ninguno,0
+400,05/08/2024,Jueves,1,Madrugada (0-6h),Av. Patria,Jardín,2.0,1500,807,No,29.5,4.1,2.4,1.7,0.54,Moderado,120,43,102,39,2,38,38,Nublado,31,Ninguno,0
+401,22/09/2024,Domingo,16,Tarde (12-18h),Av. Colón,Nueva Córdoba,2.0,1800,434,No,33.9,3.5,2.4,1.1,0.24,Bajo,60,48,51,48,6,33,65,Despejado,16,Ninguno,0
+402,16/04/2024,Miércoles,14,Tarde (12-18h),Av. Patria,Jardín,2.0,1200,774,No,25.2,4.8,2.4,2.4,0.64,Moderado,60,38,51,32,4,28,31,Despejado,14,Ninguno,0
+403,16/10/2024,Viernes,16,Tarde (12-18h),Bv. Illia,Centro,2.5,1800,679,No,41.6,3.6,3.0,0.6,0.38,Bajo,90,30,76,26,3,25,27,Despejado,8,Accidente leve,7
+404,02/09/2024,Viernes,5,Madrugada (0-6h),Av. Patria,Jardín,3.0,1000,599,No,25.8,7.0,3.6,3.4,0.6,Moderado,120,44,102,36,7,15,26,Lluvia,26,Ninguno,0
+405,19/12/2024,Jueves,6,Mañana (6-12h),Bv. Los Granaderos,Villa El Libertador,2.0,1500,585,No,34.9,3.4,2.4,1.0,0.39,Bajo,75,41,63,39,7,39,59,Despejado,11,Ninguno,0
+406,26/01/2024,Lunes,3,Madrugada (0-6h),Av. Poeta Lugones,Alta Córdoba,3.0,1200,715,No,33.5,5.4,3.6,1.8,0.6,Moderado,60,34,51,32,4,36,41,Despejado,24,Ninguno,0
+407,16/07/2024,Lunes,4,Madrugada (0-6h),Av. Fuerza Aérea,Cerro de las Rosas,2.5,1200,458,No,33.2,4.5,3.0,1.5,0.38,Bajo,75,42,63,36,5,39,52,Despejado,29,Obra en vía,13
+408,02/05/2024,Viernes,19,Noche (18-24h),Bv. Illia,Centro,1.5,1000,1617,Sí,5.0,18.0,1.8,16.2,1.0,Crítico,90,32,108,40,3,11,72,Nublado,25,Ninguno,0
+409,19/06/2024,Viernes,15,Tarde (12-18h),Av. Patria,Jardín,2.0,1000,652,No,29.2,4.1,2.4,1.7,0.65,Alto,120,34,102,48,5,23,61,Lluvia,31,Ninguno,0
+410,17/01/2024,Miércoles,11,Mañana (6-12h),Av. Colón,Nueva Córdoba,2.0,1500,641,No,38.7,3.1,2.4,0.7,0.43,Moderado,120,33,102,33,2,20,56,Nublado,26,Ninguno,0
+411,05/05/2024,Jueves,4,Madrugada (0-6h),Bv. Los Granaderos,Villa El Libertador,2.5,1800,523,No,41.2,3.6,3.0,0.6,0.29,Bajo,60,48,51,42,7,24,48,Despejado,27,Ninguno,0
+412,09/03/2024,Miércoles,10,Mañana (6-12h),Av. Vélez Sársfield,Alberdi,2.5,1000,370,No,29.5,5.1,3.0,2.1,0.37,Bajo,60,38,51,29,6,26,42,Despejado,32,Obra en vía,14
+413,18/01/2024,Miércoles,2,Madrugada (0-6h),Av. Poeta Lugones,Alta Córdoba,3.0,1800,448,No,42.0,4.3,3.6,0.7,0.25,Bajo,90,34,76,29,3,18,41,Despejado,18,Ninguno,0
+414,30/04/2024,Viernes,23,Noche (18-24h),Av. Duarte Quirós,Centro,3.0,1000,668,No,25.8,7.0,3.6,3.4,0.67,Alto,75,33,63,41,4,35,33,Llovizna,19,Accidente leve,10
+415,22/09/2024,Miércoles,1,Madrugada (0-6h),Av. Vélez Sársfield,Alberdi,3.0,1200,444,No,37.5,4.8,3.6,1.2,0.37,Bajo,75,37,63,31,7,17,36,Despejado,17,Ninguno,0
+416,17/04/2024,Jueves,2,Madrugada (0-6h),Av. Patria,Jardín,2.0,1500,393,No,40.3,3.0,2.4,0.6,0.26,Bajo,60,47,51,40,4,29,21,Lluvia,19,Ninguno,0
+417,01/08/2024,Lunes,0,Madrugada (0-6h),Bv. Illia,Centro,2.0,1000,376,No,35.3,3.4,2.4,1.0,0.38,Bajo,60,41,51,38,6,27,40,Nublado,24,Ninguno,0
+418,31/05/2024,Lunes,0,Madrugada (0-6h),Bv. Los Granaderos,Villa El Libertador,2.0,1800,588,No,40.0,3.0,2.4,0.6,0.33,Bajo,75,51,63,49,7,39,43,Despejado,35,Accidente grave,27
+419,04/12/2024,Martes,9,Mañana (6-12h),Av. Poeta Lugones,Alta Córdoba,3.0,1500,1064,Sí,22.3,8.1,3.6,4.5,0.71,Alto,75,32,90,42,5,5,67,Lluvia,8,Ninguno,0
+420,17/01/2024,Jueves,23,Noche (18-24h),Av. Patria,Jardín,3.0,1000,574,No,28.4,6.3,3.6,2.7,0.57,Moderado,120,33,102,26,3,26,55,Despejado,15,Obra en vía,5
+421,10/04/2024,Miércoles,11,Mañana (6-12h),Av. Fuerza Aérea,Cerro de las Rosas,3.0,1200,426,No,38.6,4.7,3.6,1.1,0.36,Bajo,90,39,76,36,6,39,46,Despejado,15,Ninguno,0
+422,06/10/2024,Viernes,18,Noche (18-24h),Bv. Los Granaderos,Villa El Libertador,2.5,1200,1725,Sí,5.0,30.0,3.0,27.0,1.0,Crítico,75,53,90,69,6,9,78,Despejado,11,Accidente leve,8
+423,16/04/2024,Martes,5,Madrugada (0-6h),Av. Patria,Jardín,3.0,1200,350,No,38.9,4.6,3.6,1.0,0.29,Bajo,60,42,51,34,6,20,68,Despejado,31,Ninguno,0
+424,08/04/2024,Domingo,3,Madrugada (0-6h),Av. Colón,Nueva Córdoba,3.0,1000,586,No,32.9,5.5,3.6,1.9,0.59,Moderado,75,45,63,38,7,19,57,Despejado,17,Ninguno,0
+425,28/06/2024,Jueves,2,Madrugada (0-6h),Av. Fuerza Aérea,Cerro de las Rosas,2.5,1200,451,No,44.5,3.4,3.0,0.4,0.38,Bajo,60,53,51,47,7,33,39,Despejado,34,Obra en vía,19
+426,06/07/2024,Sábado,5,Madrugada (0-6h),Bv. Los Granaderos,Villa El Libertador,1.5,1000,450,No,26.8,3.4,1.8,1.6,0.45,Moderado,90,53,76,45,6,33,35,Despejado,22,Ninguno,0
+427,14/05/2024,Lunes,5,Madrugada (0-6h),Av. Duarte Quirós,Centro,2.5,1800,436,No,40.1,3.7,3.0,0.7,0.24,Bajo,75,38,63,34,4,23,45,Despejado,16,Ninguno,0
+428,17/06/2024,Martes,13,Tarde (12-18h),Bv. San Juan,General Paz,2.5,1000,431,No,35.7,4.2,3.0,1.2,0.43,Moderado,120,48,102,48,5,37,20,Nublado,29,Ninguno,0
+429,10/05/2024,Miércoles,3,Madrugada (0-6h),Av. Colón,Nueva Córdoba,1.5,1800,400,No,44.9,2.0,1.8,0.2,0.22,Bajo,75,40,63,36,6,24,66,Llovizna,18,Accidente grave,23
+430,13/09/2024,Jueves,13,Tarde (12-18h),Bv. Illia,Centro,2.0,1200,528,No,32.8,3.7,2.4,1.3,0.44,Moderado,75,37,63,33,4,18,57,Despejado,27,Ninguno,0
+431,19/06/2024,Jueves,5,Madrugada (0-6h),Bv. Los Granaderos,Villa El Libertador,1.5,1800,495,No,35.5,2.5,1.8,0.7,0.28,Bajo,120,51,102,43,3,15,32,Despejado,33,Ninguno,0
+432,24/12/2024,Lunes,18,Noche (18-24h),Av. Fuerza Aérea,Cerro de las Rosas,1.5,1800,1091,Sí,31.4,2.9,1.8,1.1,0.61,Moderado,90,37,108,30,4,8,67,Nublado,27,Ninguno,0
+433,10/11/2024,Viernes,9,Mañana (6-12h),Av. Colón,Nueva Córdoba,3.0,1500,1175,Sí,22.5,8.0,3.6,4.4,0.78,Alto,120,31,144,43,5,5,96,Nublado,12,Ninguno,0
+434,14/02/2024,Viernes,5,Madrugada (0-6h),Av. Colón,Nueva Córdoba,3.0,1500,496,No,37.8,4.8,3.6,1.2,0.33,Bajo,90,48,76,48,5,17,62,Nublado,17,Ninguno,0
+435,23/02/2024,Domingo,6,Mañana (6-12h),Av. Duarte Quirós,Centro,1.5,1000,398,No,37.8,2.4,1.8,0.6,0.4,Moderado,120,47,102,43,2,22,46,Despejado,28,Ninguno,0
+436,07/09/2024,Martes,2,Madrugada (0-6h),Av. Fuerza Aérea,Cerro de las Rosas,3.0,1500,497,No,34.3,5.2,3.6,1.6,0.33,Bajo,75,49,63,46,7,22,32,Lluvia,27,Ninguno,0
+437,01/07/2024,Jueves,22,Noche (18-24h),Av. Vélez Sársfield,Alberdi,1.5,1200,325,No,40.2,2.2,1.8,0.4,0.27,Bajo,75,44,63,36,2,21,54,Despejado,9,Ninguno,0
+438,07/09/2024,Viernes,8,Mañana (6-12h),Av. Poeta Lugones,Alta Córdoba,2.5,1200,1152,Sí,15.0,10.0,3.0,7.0,0.96,Crítico,90,46,108,53,6,5,95,Despejado,33,Ninguno,0
+439,11/09/2024,Miércoles,9,Mañana (6-12h),Av. Colón,Nueva Córdoba,2.0,1500,1597,Sí,14.0,8.6,2.4,6.2,1.0,Crítico,120,51,144,56,3,9,71,Despejado,23,Obra en vía,5
+440,03/12/2024,Lunes,17,Tarde (12-18h),Av. Patria,Jardín,2.5,1200,1102,Sí,20.6,7.3,3.0,4.3,0.92,Crítico,120,36,144,45,4,8,87,Nublado,11,Ninguno,0
+441,20/09/2024,Martes,6,Mañana (6-12h),Av. Poeta Lugones,Alta Córdoba,2.5,1800,317,No,44.0,3.4,3.0,0.4,0.18,Bajo,60,49,51,43,3,16,68,Despejado,9,Accidente leve,10
+442,19/08/2024,Domingo,1,Madrugada (0-6h),Av. Vélez Sársfield,Alberdi,1.5,1200,157,No,47.0,1.9,1.8,0.1,0.13,Bajo,120,48,102,42,5,21,57,Despejado,10,Ninguno,0
+443,09/10/2024,Domingo,3,Madrugada (0-6h),Av. Colón,Nueva Córdoba,1.5,1500,466,No,41.6,2.2,1.8,0.4,0.31,Bajo,75,43,63,41,7,22,56,Nublado,23,Ninguno,0
+444,23/09/2024,Viernes,23,Noche (18-24h),Av. Colón,Nueva Córdoba,2.5,1800,812,No,32.4,4.6,3.0,1.6,0.45,Moderado,120,52,102,43,7,19,52,Llovizna,23,Accidente leve,11
+445,07/07/2024,Viernes,19,Noche (18-24h),Bv. Illia,Centro,1.5,1800,1564,Sí,20.5,4.4,1.8,2.6,0.87,Crítico,60,35,72,52,6,6,85,Llovizna,20,Ninguno,0
+446,14/05/2024,Sábado,3,Madrugada (0-6h),Av. Poeta Lugones,Alta Córdoba,2.5,1800,582,No,37.0,4.1,3.0,1.1,0.32,Bajo,90,47,76,39,4,25,34,Despejado,18,Ninguno,0
+447,26/03/2024,Martes,14,Tarde (12-18h),Av. Maipú,Centro,1.5,1200,300,No,40.5,2.2,1.8,0.4,0.25,Bajo,60,40,51,38,6,22,23,Nublado,19,Ninguno,0
+448,12/07/2024,Lunes,23,Noche (18-24h),Av. Vélez Sársfield,Alberdi,2.5,1500,800,No,33.3,4.5,3.0,1.5,0.53,Moderado,120,48,102,48,7,36,48,Nublado,35,Ninguno,0
+449,19/06/2024,Lunes,17,Tarde (12-18h),Av. Poeta Lugones,Alta Córdoba,2.5,1000,1269,Sí,6.7,22.4,3.0,19.4,1.0,Crítico,75,44,90,49,4,8,96,Llovizna,23,Ninguno,0
+450,13/02/2024,Miércoles,7,Mañana (6-12h),Bv. Illia,Centro,1.5,1800,1380,Sí,18.1,5.0,1.8,3.2,0.77,Alto,75,31,90,40,4,7,99,Lluvia,28,Ninguno,0
+451,22/05/2024,Domingo,3,Madrugada (0-6h),Av. Duarte Quirós,Centro,2.5,1000,491,No,33.6,4.5,3.0,1.5,0.49,Moderado,75,53,63,48,5,25,67,Despejado,28,Ninguno,0
+452,03/07/2024,Miércoles,10,Mañana (6-12h),Av. Duarte Quirós,Centro,2.0,1000,738,No,28.1,4.3,2.4,1.9,0.74,Alto,120,36,102,49,3,35,31,Despejado,35,Ninguno,0
+453,19/01/2024,Viernes,1,Madrugada (0-6h),Av. Maipú,Centro,2.0,1800,742,No,37.6,3.2,2.4,0.8,0.41,Moderado,60,50,51,46,2,36,23,Nublado,14,Obra en vía,19
+454,06/03/2024,Viernes,8,Mañana (6-12h),Av. Duarte Quirós,Centro,2.0,1000,1354,Sí,6.4,18.8,2.4,16.4,1.0,Crítico,120,45,144,63,5,5,72,Llovizna,9,Ninguno,0
+455,08/11/2024,Martes,17,Tarde (12-18h),Bv. Illia,Centro,1.5,1800,1406,Sí,24.0,3.8,1.8,2.0,0.78,Alto,120,35,144,54,5,9,64,Despejado,16,Ninguno,0
+456,19/02/2024,Miércoles,20,Noche (18-24h),Av. Duarte Quirós,Centro,1.5,1800,519,No,38.9,2.3,1.8,0.5,0.29,Bajo,90,44,76,36,6,30,29,Nublado,22,Ninguno,0
+457,21/07/2024,Lunes,14,Tarde (12-18h),Bv. San Juan,General Paz,2.0,1800,823,No,31.5,3.8,2.4,1.4,0.46,Moderado,60,53,51,46,5,33,69,Despejado,11,Accidente leve,10
+458,12/04/2024,Viernes,23,Noche (18-24h),Av. Colón,Nueva Córdoba,2.5,1800,730,No,37.0,4.1,3.0,1.1,0.41,Moderado,90,42,76,42,6,35,53,Despejado,34,Obra en vía,14
+459,22/01/2024,Domingo,0,Madrugada (0-6h),Av. Fuerza Aérea,Cerro de las Rosas,1.5,1000,181,No,39.6,2.3,1.8,0.5,0.18,Bajo,120,46,102,44,4,26,47,Despejado,32,Ninguno,0
+460,04/07/2024,Martes,4,Madrugada (0-6h),Av. Maipú,Centro,3.0,1500,846,No,33.8,5.3,3.6,1.7,0.56,Moderado,120,30,102,29,7,25,68,Nublado,32,Ninguno,0
+461,14/09/2024,Viernes,5,Madrugada (0-6h),Av. Fuerza Aérea,Cerro de las Rosas,2.5,1500,538,No,39.3,3.8,3.0,0.8,0.36,Bajo,60,48,51,48,5,34,25,Despejado,31,Accidente leve,4
+462,03/02/2024,Jueves,9,Mañana (6-12h),Av. Fuerza Aérea,Cerro de las Rosas,2.5,1800,1502,Sí,22.7,6.6,3.0,3.6,0.83,Alto,120,49,144,63,6,12,78,Nublado,26,Ninguno,0
+463,01/03/2024,Lunes,0,Madrugada (0-6h),Av. Colón,Nueva Córdoba,1.5,1800,354,No,44.0,2.0,1.8,0.2,0.2,Bajo,75,31,63,25,3,26,23,Despejado,27,Ninguno,0
+464,07/03/2024,Viernes,15,Tarde (12-18h),Av. Poeta Lugones,Alta Córdoba,2.5,1800,658,No,39.9,3.8,3.0,0.8,0.37,Bajo,120,50,102,48,2,34,50,Nublado,19,Ninguno,0
+465,18/02/2024,Martes,9,Mañana (6-12h),Av. Vélez Sársfield,Alberdi,1.5,1500,926,Sí,29.9,3.0,1.8,1.2,0.62,Moderado,90,39,108,33,3,6,73,Despejado,17,Accidente grave,19
+466,17/12/2024,Martes,5,Madrugada (0-6h),Bv. San Juan,General Paz,2.0,1500,761,No,34.0,3.5,2.4,1.1,0.51,Moderado,120,41,102,34,7,33,59,Despejado,8,Ninguno,0
+467,20/09/2024,Miércoles,2,Madrugada (0-6h),Bv. Illia,Centro,2.0,1500,361,No,41.7,2.9,2.4,0.5,0.24,Bajo,75,47,63,41,3,38,28,Llovizna,24,Accidente leve,5
+468,25/03/2024,Jueves,8,Mañana (6-12h),Av. Duarte Quirós,Centro,2.5,1500,1778,Sí,5.0,30.0,3.0,27.0,1.0,Crítico,75,54,90,65,3,12,83,Despejado,15,Ninguno,0
+469,04/05/2024,Viernes,1,Madrugada (0-6h),Av. Patria,Jardín,2.5,1000,788,No,15.8,9.5,3.0,6.5,0.79,Alto,75,35,63,52,2,20,44,Nublado,17,Ninguno,0
+470,29/10/2024,Miércoles,6,Mañana (6-12h),Av. Maipú,Centro,2.5,1000,603,No,35.2,4.3,3.0,1.3,0.6,Moderado,60,44,51,43,5,22,21,Nublado,34,Obra en vía,5
+471,26/07/2024,Miércoles,6,Mañana (6-12h),Av. Fuerza Aérea,Cerro de las Rosas,2.5,1800,680,No,34.6,4.3,3.0,1.3,0.38,Bajo,60,36,51,29,5,17,46,Despejado,31,Ninguno,0
+472,09/06/2024,Lunes,3,Madrugada (0-6h),Av. Poeta Lugones,Alta Córdoba,2.5,1800,879,No,30.8,4.9,3.0,1.9,0.49,Moderado,60,49,51,43,6,25,56,Nublado,20,Ninguno,0
+473,23/01/2024,Sábado,10,Mañana (6-12h),Bv. San Juan,General Paz,1.5,1200,514,No,35.2,2.6,1.8,0.8,0.43,Moderado,120,36,102,33,6,37,44,Nublado,33,Ninguno,0
+474,11/06/2024,Martes,11,Mañana (6-12h),Bv. San Juan,General Paz,2.0,1000,694,No,28.2,4.3,2.4,1.9,0.69,Alto,75,35,63,45,3,39,61,Despejado,14,Ninguno,0
+475,11/07/2024,Miércoles,11,Mañana (6-12h),Av. Maipú,Centro,3.0,1500,383,No,40.8,4.4,3.6,0.8,0.26,Bajo,60,52,51,46,7,27,44,Despejado,17,Ninguno,0
+476,31/08/2024,Viernes,14,Tarde (12-18h),Av. Patria,Jardín,2.5,1500,315,No,41.3,3.6,3.0,0.6,0.21,Bajo,90,35,76,33,3,25,28,Llovizna,35,Accidente leve,8
+477,05/07/2024,Martes,23,Noche (18-24h),Av. Colón,Nueva Córdoba,3.0,1200,569,No,31.2,5.8,3.6,2.2,0.47,Moderado,75,45,63,37,2,21,21,Despejado,27,Ninguno,0
+478,16/06/2024,Martes,20,Noche (18-24h),Bv. Illia,Centro,3.0,1500,439,No,38.6,4.7,3.6,1.1,0.29,Bajo,90,45,76,43,7,24,35,Lluvia,16,Accidente leve,8
+479,23/12/2024,Jueves,3,Madrugada (0-6h),Av. Patria,Jardín,2.5,1800,420,No,40.5,3.7,3.0,0.7,0.23,Bajo,90,52,76,50,2,35,49,Despejado,26,Accidente grave,20
+480,02/11/2024,Jueves,20,Noche (18-24h),Bv. San Juan,General Paz,1.5,1200,654,No,32.9,2.7,1.8,0.9,0.55,Moderado,120,30,102,28,4,29,58,Despejado,16,Ninguno,0
+481,17/06/2024,Lunes,4,Madrugada (0-6h),Av. Maipú,Centro,3.0,1000,716,No,27.0,6.7,3.6,3.1,0.72,Alto,75,41,63,55,2,19,54,Despejado,21,Ninguno,0
+482,30/06/2024,Sábado,7,Mañana (6-12h),Av. Patria,Jardín,3.0,1200,338,No,36.3,5.0,3.6,1.4,0.28,Bajo,120,37,102,29,7,29,61,Nublado,12,Ninguno,0
+483,12/03/2024,Lunes,2,Madrugada (0-6h),Av. Duarte Quirós,Centro,3.0,1800,797,No,36.1,5.0,3.6,1.4,0.44,Moderado,90,52,76,51,3,16,36,Despejado,29,Ninguno,0
+484,11/07/2024,Domingo,7,Mañana (6-12h),Av. Fuerza Aérea,Cerro de las Rosas,1.5,1200,271,No,43.2,2.1,1.8,0.3,0.23,Bajo,60,50,51,44,5,29,23,Despejado,20,Ninguno,0
+485,23/02/2024,Domingo,20,Noche (18-24h),Av. Fuerza Aérea,Cerro de las Rosas,1.5,1800,559,No,39.5,2.3,1.8,0.5,0.31,Bajo,75,39,63,35,3,27,60,Despejado,12,Ninguno,0
+486,29/03/2024,Sábado,3,Madrugada (0-6h),Av. Poeta Lugones,Alta Córdoba,3.0,1800,550,No,39.4,4.6,3.6,1.0,0.31,Bajo,75,33,63,30,3,21,64,Despejado,35,Ninguno,0
+487,28/12/2024,Sábado,4,Madrugada (0-6h),Av. Duarte Quirós,Centro,3.0,1500,480,No,36.6,4.9,3.6,1.3,0.32,Bajo,60,32,51,32,5,27,24,Despejado,11,Ninguno,0
+488,27/12/2024,Viernes,22,Noche (18-24h),Av. Maipú,Centro,2.5,1000,364,No,40.4,3.7,3.0,0.7,0.36,Bajo,90,49,76,40,3,36,56,Nublado,27,Obra en vía,15
+489,02/06/2024,Viernes,4,Madrugada (0-6h),Av. Duarte Quirós,Centro,3.0,1200,353,No,34.6,5.2,3.6,1.6,0.29,Bajo,75,35,63,28,2,32,66,Despejado,35,Ninguno,0
+490,11/07/2024,Martes,4,Madrugada (0-6h),Av. Fuerza Aérea,Cerro de las Rosas,2.0,1500,758,No,33.1,3.6,2.4,1.2,0.51,Moderado,60,31,51,28,7,31,38,Nublado,25,Accidente leve,4
+491,14/01/2024,Lunes,2,Madrugada (0-6h),Bv. San Juan,General Paz,3.0,1800,577,No,37.5,4.8,3.6,1.2,0.32,Bajo,75,32,63,26,3,17,22,Nublado,26,Ninguno,0
+492,23/07/2024,Miércoles,18,Noche (18-24h),Bv. Illia,Centro,1.5,1200,1103,Sí,26.2,3.4,1.8,1.6,0.92,Crítico,75,49,90,58,3,11,69,Despejado,32,Accidente grave,24
+493,17/04/2024,Lunes,12,Tarde (12-18h),Bv. San Juan,General Paz,2.5,1200,354,No,39.3,3.8,3.0,0.8,0.3,Bajo,75,51,63,43,7,31,54,Nublado,32,Ninguno,0
+494,14/10/2024,Viernes,22,Noche (18-24h),Av. Colón,Nueva Córdoba,2.0,1200,499,No,34.5,3.5,2.4,1.1,0.42,Moderado,120,45,102,39,4,29,56,Despejado,19,Ninguno,0
+495,29/10/2024,Lunes,7,Mañana (6-12h),Av. Vélez Sársfield,Alberdi,3.0,1000,1128,Sí,6.4,28.1,3.6,24.5,1.0,Crítico,120,48,144,54,5,12,77,Despejado,22,Accidente leve,8
+496,27/05/2024,Domingo,18,Noche (18-24h),Av. Fuerza Aérea,Cerro de las Rosas,1.5,1200,469,No,39.4,2.3,1.8,0.5,0.39,Bajo,75,31,63,27,3,22,20,Nublado,29,Ninguno,0
+497,29/04/2024,Miércoles,19,Noche (18-24h),Av. Maipú,Centro,2.0,1500,1615,Sí,14.5,8.3,2.4,5.9,1.0,Crítico,60,32,72,40,3,6,72,Despejado,18,Accidente grave,19
+498,07/10/2024,Domingo,0,Madrugada (0-6h),Av. Fuerza Aérea,Cerro de las Rosas,3.0,1800,517,No,44.6,4.0,3.6,0.4,0.29,Bajo,120,45,102,37,5,23,69,Nublado,27,Ninguno,0
+499,12/10/2024,Jueves,13,Tarde (12-18h),Av. Duarte Quirós,Centro,3.0,1000,798,No,22.6,8.0,3.6,4.4,0.8,Alto,75,43,63,54,3,26,25,Nublado,18,Ninguno,0
+500,24/04/2024,Domingo,21,Noche (18-24h),Av. Vélez Sársfield,Alberdi,2.5,1800,358,No,44.9,3.3,3.0,0.3,0.2,Bajo,75,52,63,50,7,33,22,Despejado,19,Ninguno,0
+501,19/03/2024,Jueves,13,Tarde (12-18h),Bv. Illia,Centro,2.5,1500,503,No,33.8,4.4,3.0,1.4,0.34,Bajo,60,30,51,25,3,32,25,Nublado,17,Accidente leve,3
+502,07/11/2024,Jueves,6,Mañana (6-12h),Av. Maipú,Centro,3.0,1000,873,No,21.0,8.6,3.6,5.0,0.87,Crítico,120,49,102,57,5,32,38,Despejado,27,Ninguno,0
+503,31/03/2024,Sábado,19,Noche (18-24h),Av. Vélez Sársfield,Alberdi,2.5,1500,450,No,40.8,3.7,3.0,0.7,0.3,Bajo,60,36,51,35,6,25,23,Despejado,12,Ninguno,0
+504,02/04/2024,Martes,12,Tarde (12-18h),Av. Patria,Jardín,3.0,1200,472,No,34.3,5.2,3.6,1.6,0.39,Bajo,75,40,63,31,7,34,35,Lluvia,16,Accidente grave,25
+505,06/11/2024,Lunes,14,Tarde (12-18h),Av. Duarte Quirós,Centro,1.5,1200,835,No,25.6,3.5,1.8,1.7,0.7,Alto,120,38,102,49,3,37,55,Nublado,26,Accidente leve,5
+506,05/10/2024,Domingo,16,Tarde (12-18h),Av. Duarte Quirós,Centro,1.5,1000,523,No,36.8,2.4,1.8,0.6,0.52,Moderado,60,40,51,38,4,29,24,Despejado,35,Ninguno,0
+507,06/11/2024,Miércoles,6,Mañana (6-12h),Av. Poeta Lugones,Alta Córdoba,2.0,1200,545,No,32.1,3.7,2.4,1.3,0.45,Moderado,75,35,63,31,5,28,69,Nublado,24,Accidente grave,23
+508,07/06/2024,Lunes,3,Madrugada (0-6h),Av. Maipú,Centro,2.5,1200,829,No,24.5,6.1,3.0,3.1,0.69,Alto,120,49,102,68,2,20,31,Nublado,33,Ninguno,0
+509,01/04/2024,Martes,20,Noche (18-24h),Av. Vélez Sársfield,Alberdi,2.5,1000,819,No,22.3,6.7,3.0,3.7,0.82,Alto,75,34,63,46,5,21,35,Despejado,18,Ninguno,0
+510,16/08/2024,Martes,3,Madrugada (0-6h),Bv. Illia,Centro,1.5,1800,814,No,35.8,2.5,1.8,0.7,0.45,Moderado,75,49,63,48,5,39,56,Despejado,19,Ninguno,0
+511,04/10/2024,Lunes,6,Mañana (6-12h),Bv. Los Granaderos,Villa El Libertador,2.5,1200,403,No,40.4,3.7,3.0,0.7,0.34,Bajo,120,39,102,32,7,34,68,Nublado,11,Ninguno,0
+512,24/09/2024,Domingo,2,Madrugada (0-6h),Av. Fuerza Aérea,Cerro de las Rosas,3.0,1000,547,No,33.6,5.4,3.6,1.8,0.55,Moderado,60,53,51,46,7,35,48,Nublado,13,Ninguno,0
+513,12/11/2024,Martes,21,Noche (18-24h),Bv. Illia,Centro,2.5,1000,418,No,38.2,3.9,3.0,0.9,0.42,Moderado,75,31,63,25,2,24,26,Llovizna,26,Ninguno,0
+514,23/08/2024,Jueves,20,Noche (18-24h),Bv. San Juan,General Paz,1.5,1500,650,No,37.2,2.4,1.8,0.6,0.43,Moderado,60,34,51,29,2,26,66,Llovizna,29,Ninguno,0
+515,24/09/2024,Lunes,2,Madrugada (0-6h),Av. Colón,Nueva Córdoba,1.5,1800,678,No,34.8,2.6,1.8,0.8,0.38,Bajo,90,48,76,40,3,22,20,Lluvia,25,Obra en vía,14
+516,25/05/2024,Jueves,16,Tarde (12-18h),Av. Fuerza Aérea,Cerro de las Rosas,3.0,1500,668,No,32.4,5.6,3.6,2.0,0.45,Moderado,75,41,63,40,5,22,41,Lluvia,11,Ninguno,0
+517,19/01/2024,Domingo,1,Madrugada (0-6h),Av. Patria,Jardín,3.0,1200,569,No,36.6,4.9,3.6,1.3,0.47,Moderado,60,44,51,39,5,34,36,Lluvia,18,Ninguno,0
+518,08/04/2024,Jueves,7,Mañana (6-12h),Av. Maipú,Centro,3.0,1800,1595,Sí,22.9,7.9,3.6,4.3,0.89,Crítico,120,50,144,66,7,10,89,Nublado,34,Ninguno,0
+519,18/02/2024,Jueves,20,Noche (18-24h),Bv. Los Granaderos,Villa El Libertador,2.5,1800,322,No,50.0,3.0,3.0,0.0,0.18,Bajo,75,39,63,34,6,36,30,Lluvia,28,Ninguno,0
+520,13/03/2024,Viernes,6,Mañana (6-12h),Bv. Illia,Centro,3.0,1200,768,No,33.6,5.4,3.6,1.8,0.64,Moderado,90,42,76,41,4,20,53,Nublado,33,Ninguno,0
+521,04/12/2024,Viernes,20,Noche (18-24h),Av. Colón,Nueva Córdoba,1.5,1000,492,No,34.6,2.6,1.8,0.8,0.49,Moderado,75,53,63,44,5,18,26,Llovizna,10,Ninguno,0
+522,19/01/2024,Martes,22,Noche (18-24h),Av. Maipú,Centro,1.5,1800,393,No,44.7,2.0,1.8,0.2,0.22,Bajo,90,31,76,30,3,23,61,Despejado,22,Ninguno,0
+523,04/12/2024,Lunes,1,Madrugada (0-6h),Av. Maipú,Centro,3.0,1500,688,No,35.1,5.1,3.6,1.5,0.46,Moderado,60,40,51,31,7,30,36,Nublado,17,Ninguno,0
+524,07/02/2024,Domingo,12,Tarde (12-18h),Av. Patria,Jardín,2.5,1000,591,No,33.0,4.5,3.0,1.5,0.59,Moderado,60,33,51,28,5,34,37,Nublado,24,Obra en vía,17
+525,03/04/2024,Jueves,14,Tarde (12-18h),Av. Maipú,Centro,2.0,1000,671,No,22.2,5.4,2.4,3.0,0.67,Alto,120,38,102,43,3,16,29,Despejado,26,Ninguno,0
+526,07/05/2024,Viernes,1,Madrugada (0-6h),Bv. Los Granaderos,Villa El Libertador,3.0,1500,558,No,42.8,4.2,3.6,0.6,0.37,Bajo,120,45,102,38,5,19,57,Despejado,19,Ninguno,0
+527,17/12/2024,Miércoles,13,Tarde (12-18h),Bv. Los Granaderos,Villa El Libertador,2.5,1500,876,No,28.6,5.2,3.0,2.2,0.58,Moderado,90,41,76,36,7,27,45,Nublado,29,Accidente leve,8
+528,20/02/2024,Miércoles,12,Tarde (12-18h),Bv. San Juan,General Paz,2.5,1800,563,No,35.1,4.3,3.0,1.3,0.31,Bajo,75,41,63,35,6,32,28,Llovizna,31,Ninguno,0
+529,09/11/2024,Martes,22,Noche (18-24h),Av. Fuerza Aérea,Cerro de las Rosas,1.5,1500,888,No,32.3,2.8,1.8,1.0,0.59,Moderado,75,37,63,28,4,29,56,Nublado,25,Ninguno,0
+530,24/10/2024,Sábado,21,Noche (18-24h),Bv. Los Granaderos,Villa El Libertador,2.5,1000,406,No,37.3,4.0,3.0,1.0,0.41,Moderado,60,49,51,48,2,39,63,Lluvia,19,Ninguno,0
+531,11/02/2024,Viernes,4,Madrugada (0-6h),Av. Duarte Quirós,Centro,2.0,1000,502,No,31.1,3.9,2.4,1.5,0.5,Moderado,60,33,51,29,6,18,61,Despejado,24,Ninguno,0
+532,23/12/2024,Lunes,4,Madrugada (0-6h),Av. Fuerza Aérea,Cerro de las Rosas,2.0,1800,714,No,33.9,3.5,2.4,1.1,0.4,Moderado,120,39,102,38,3,25,30,Nublado,35,Obra en vía,7
+533,20/12/2024,Miércoles,18,Noche (18-24h),Av. Fuerza Aérea,Cerro de las Rosas,2.5,1500,1038,Sí,24.4,6.1,3.0,3.1,0.69,Alto,60,38,72,47,5,12,98,Despejado,29,Ninguno,0
+534,06/11/2024,Jueves,7,Mañana (6-12h),Av. Fuerza Aérea,Cerro de las Rosas,2.5,1500,939,Sí,27.7,5.4,3.0,2.4,0.63,Moderado,120,42,144,42,7,14,69,Lluvia,24,Ninguno,0
+535,14/07/2024,Sábado,5,Madrugada (0-6h),Bv. San Juan,General Paz,2.0,1000,264,No,42.5,2.8,2.4,0.4,0.26,Bajo,120,43,102,37,5,16,36,Despejado,17,Ninguno,0
+536,01/06/2024,Martes,21,Noche (18-24h),Av. Duarte Quirós,Centro,1.5,1500,405,No,40.4,2.2,1.8,0.4,0.27,Bajo,75,33,63,25,2,29,23,Despejado,26,Ninguno,0
+537,06/01/2024,Jueves,6,Mañana (6-12h),Av. Poeta Lugones,Alta Córdoba,1.5,1800,652,No,46.6,1.9,1.8,0.1,0.36,Bajo,75,40,63,35,2,20,47,Nublado,35,Ninguno,0
+538,03/12/2024,Miércoles,11,Mañana (6-12h),Bv. San Juan,General Paz,2.0,1000,798,No,26.7,4.5,2.4,2.1,0.8,Alto,90,42,76,61,3,32,69,Llovizna,17,Ninguno,0
+539,20/10/2024,Martes,10,Mañana (6-12h),Av. Maipú,Centro,1.5,1500,525,No,36.1,2.5,1.8,0.7,0.35,Bajo,90,54,76,52,6,22,29,Despejado,35,Ninguno,0
+540,08/08/2024,Miércoles,6,Mañana (6-12h),Av. Duarte Quirós,Centro,2.0,1000,508,No,31.3,3.8,2.4,1.4,0.51,Moderado,90,37,76,32,6,39,55,Despejado,32,Ninguno,0
+541,15/11/2024,Lunes,23,Noche (18-24h),Av. Colón,Nueva Córdoba,2.5,1800,765,No,33.2,4.5,3.0,1.5,0.42,Moderado,120,49,102,46,3,18,44,Despejado,13,Obra en vía,11
+542,26/11/2024,Sábado,0,Madrugada (0-6h),Av. Fuerza Aérea,Cerro de las Rosas,2.5,1200,365,No,41.1,3.6,3.0,0.6,0.3,Bajo,60,48,51,48,6,31,54,Nublado,10,Ninguno,0
+543,07/03/2024,Viernes,23,Noche (18-24h),Av. Patria,Jardín,2.0,1200,686,No,28.1,4.3,2.4,1.9,0.57,Moderado,60,34,51,33,2,24,22,Lluvia,34,Ninguno,0
+544,30/06/2024,Miércoles,0,Madrugada (0-6h),Av. Poeta Lugones,Alta Córdoba,2.0,1200,438,No,42.1,2.9,2.4,0.5,0.36,Bajo,60,38,51,29,5,38,46,Despejado,34,Accidente leve,8
+545,08/08/2024,Miércoles,16,Tarde (12-18h),Bv. Illia,Centro,1.5,1000,420,No,30.6,2.9,1.8,1.1,0.42,Moderado,75,35,63,34,5,20,27,Llovizna,15,Accidente leve,10
+546,06/01/2024,Miércoles,23,Noche (18-24h),Av. Patria,Jardín,3.0,1200,608,No,32.9,5.5,3.6,1.9,0.51,Moderado,120,52,102,45,4,22,58,Despejado,26,Ninguno,0
+547,04/07/2024,Viernes,20,Noche (18-24h),Av. Vélez Sársfield,Alberdi,3.0,1200,554,No,34.3,5.2,3.6,1.6,0.46,Moderado,60,52,51,43,7,27,65,Despejado,19,Ninguno,0
+548,21/08/2024,Domingo,0,Madrugada (0-6h),Av. Duarte Quirós,Centro,2.0,1000,199,No,41.7,2.9,2.4,0.5,0.2,Bajo,75,43,63,39,7,16,59,Despejado,27,Ninguno,0
+549,27/08/2024,Lunes,4,Madrugada (0-6h),Av. Duarte Quirós,Centro,3.0,1000,894,No,17.0,10.6,3.6,7.0,0.89,Crítico,90,44,76,55,6,32,49,Llovizna,25,Ninguno,0
+550,26/08/2024,Sábado,23,Noche (18-24h),Av. Vélez Sársfield,Alberdi,2.5,1000,398,No,27.5,5.5,3.0,2.5,0.4,Moderado,60,46,51,42,6,26,36,Lluvia,13,Ninguno,0
+551,14/06/2024,Martes,12,Tarde (12-18h),Av. Patria,Jardín,2.5,1000,651,No,28.9,5.2,3.0,2.2,0.65,Alto,60,30,51,40,7,39,28,Lluvia,15,Ninguno,0
+552,28/02/2024,Sábado,14,Tarde (12-18h),Av. Patria,Jardín,3.0,1200,466,No,34.4,5.2,3.6,1.6,0.39,Bajo,120,41,102,34,3,37,53,Nublado,8,Accidente leve,10
+553,25/03/2024,Martes,4,Madrugada (0-6h),Av. Maipú,Centro,2.5,1200,793,No,28.2,5.3,3.0,2.3,0.66,Alto,60,46,51,52,4,24,60,Llovizna,31,Ninguno,0
+554,06/12/2024,Jueves,3,Madrugada (0-6h),Bv. Los Granaderos,Villa El Libertador,2.0,1800,379,No,45.4,2.6,2.4,0.2,0.21,Bajo,60,46,51,38,3,18,33,Llovizna,15,Ninguno,0
+555,07/03/2024,Viernes,5,Madrugada (0-6h),Av. Duarte Quirós,Centro,2.5,1500,786,No,29.3,5.1,3.0,2.1,0.52,Moderado,75,36,63,30,7,21,25,Despejado,16,Ninguno,0
+556,27/06/2024,Viernes,5,Madrugada (0-6h),Av. Maipú,Centro,3.0,1000,662,No,27.5,6.5,3.6,2.9,0.66,Alto,90,45,76,60,6,39,64,Despejado,21,Ninguno,0
+557,19/02/2024,Jueves,20,Noche (18-24h),Bv. San Juan,General Paz,3.0,1200,555,No,33.6,5.4,3.6,1.8,0.46,Moderado,75,42,63,33,6,19,25,Despejado,12,Ninguno,0
+558,26/10/2024,Domingo,15,Tarde (12-18h),Bv. Illia,Centro,2.0,1800,392,No,46.3,2.6,2.4,0.2,0.22,Bajo,60,46,51,39,3,27,61,Despejado,27,Ninguno,0
+559,10/05/2024,Jueves,8,Mañana (6-12h),Av. Fuerza Aérea,Cerro de las Rosas,1.5,1200,944,Sí,19.5,4.6,1.8,2.8,0.79,Alto,75,32,90,46,3,7,99,Despejado,21,Ninguno,0
+560,26/02/2024,Viernes,8,Mañana (6-12h),Bv. San Juan,General Paz,1.5,1200,1047,Sí,10.7,8.4,1.8,6.6,0.87,Crítico,60,48,72,66,7,12,65,Despejado,17,Accidente leve,5
+561,05/08/2024,Martes,0,Madrugada (0-6h),Av. Colón,Nueva Córdoba,3.0,1500,484,No,39.1,4.6,3.6,1.0,0.32,Bajo,75,44,63,36,7,19,24,Despejado,35,Ninguno,0
+562,29/08/2024,Lunes,7,Mañana (6-12h),Av. Duarte Quirós,Centro,2.0,1000,1184,Sí,12.3,9.8,2.4,7.4,1.0,Crítico,90,39,108,58,7,11,66,Despejado,29,Ninguno,0
+563,20/06/2024,Viernes,9,Mañana (6-12h),Av. Poeta Lugones,Alta Córdoba,2.0,1200,1783,Sí,5.0,24.0,2.4,21.6,1.0,Crítico,120,42,144,60,6,9,73,Nublado,35,Accidente leve,7
+564,30/03/2024,Jueves,9,Mañana (6-12h),Av. Duarte Quirós,Centro,3.0,1200,1661,Sí,5.0,36.0,3.6,32.4,1.0,Crítico,120,52,144,60,5,6,66,Despejado,16,Ninguno,0
+565,24/05/2024,Martes,19,Noche (18-24h),Av. Poeta Lugones,Alta Córdoba,1.5,1800,1235,Sí,31.0,2.9,1.8,1.1,0.69,Alto,90,46,108,56,5,7,73,Despejado,30,Accidente leve,11
+566,25/02/2024,Lunes,15,Tarde (12-18h),Av. Maipú,Centro,2.0,1800,502,No,42.0,2.9,2.4,0.5,0.28,Bajo,120,48,102,39,5,30,56,Despejado,19,Ninguno,0
+567,13/05/2024,Domingo,3,Madrugada (0-6h),Av. Fuerza Aérea,Cerro de las Rosas,2.0,1500,361,No,41.1,2.9,2.4,0.5,0.24,Bajo,120,54,102,52,3,36,46,Llovizna,27,Ninguno,0
+568,02/03/2024,Lunes,19,Noche (18-24h),Bv. Illia,Centro,2.0,1800,1730,Sí,12.7,9.4,2.4,7.0,0.96,Crítico,60,44,72,58,7,14,94,Nublado,19,Obra en vía,7
+569,27/05/2024,Miércoles,8,Mañana (6-12h),Av. Fuerza Aérea,Cerro de las Rosas,2.0,1200,1053,Sí,16.4,7.3,2.4,4.9,0.88,Crítico,120,48,144,53,5,7,68,Despejado,23,Ninguno,0
+570,30/12/2024,Lunes,18,Noche (18-24h),Av. Duarte Quirós,Centro,2.5,1200,1765,Sí,5.0,30.0,3.0,27.0,1.0,Crítico,120,40,144,59,6,12,92,Despejado,14,Ninguno,0
+571,15/04/2024,Martes,6,Mañana (6-12h),Av. Poeta Lugones,Alta Córdoba,1.5,1500,433,No,43.2,2.1,1.8,0.3,0.29,Bajo,90,54,76,54,2,25,46,Nublado,35,Obra en vía,12
+572,14/11/2024,Viernes,2,Madrugada (0-6h),Bv. San Juan,General Paz,3.0,1000,474,No,33.1,5.4,3.6,1.8,0.47,Moderado,90,32,76,32,5,34,33,Nublado,12,Accidente leve,11
+573,09/02/2024,Martes,2,Madrugada (0-6h),Av. Colón,Nueva Córdoba,3.0,1200,837,No,23.0,7.8,3.6,4.2,0.7,Alto,75,44,63,61,7,21,25,Despejado,8,Ninguno,0
+574,14/05/2024,Martes,15,Tarde (12-18h),Bv. Illia,Centro,2.5,1200,820,No,18.0,8.3,3.0,5.3,0.68,Alto,60,38,51,54,6,37,67,Nublado,17,Ninguno,0
+575,12/06/2024,Miércoles,19,Noche (18-24h),Av. Poeta Lugones,Alta Córdoba,2.0,1500,1533,Sí,14.0,8.6,2.4,6.2,1.0,Crítico,90,53,108,68,3,13,82,Nublado,35,Ninguno,0
+576,22/04/2024,Viernes,10,Mañana (6-12h),Av. Maipú,Centro,3.0,1500,449,No,38.2,4.7,3.6,1.1,0.3,Bajo,120,50,102,48,4,36,32,Nublado,30,Accidente leve,8
+577,18/07/2024,Martes,8,Mañana (6-12h),Bv. Illia,Centro,2.5,1500,1126,Sí,28.0,5.4,3.0,2.4,0.75,Alto,60,36,72,54,2,9,63,Despejado,32,Accidente leve,3
+578,20/09/2024,Miércoles,15,Tarde (12-18h),Bv. Los Granaderos,Villa El Libertador,2.0,1000,662,No,25.7,4.7,2.4,2.3,0.66,Alto,75,31,63,47,4,19,37,Despejado,17,Ninguno,0
+579,24/11/2024,Lunes,2,Madrugada (0-6h),Bv. Los Granaderos,Villa El Libertador,2.5,1000,475,No,34.2,4.4,3.0,1.4,0.48,Moderado,90,44,76,40,7,16,24,Nublado,22,Accidente leve,11
+580,29/07/2024,Miércoles,2,Madrugada (0-6h),Av. Maipú,Centro,2.5,1800,707,No,38.6,3.9,3.0,0.9,0.39,Bajo,60,31,51,25,6,27,52,Despejado,33,Ninguno,0
+581,10/02/2024,Lunes,2,Madrugada (0-6h),Av. Fuerza Aérea,Cerro de las Rosas,2.5,1000,529,No,30.9,4.9,3.0,1.9,0.53,Moderado,90,46,76,45,3,34,60,Despejado,26,Ninguno,0
+582,30/08/2024,Martes,6,Mañana (6-12h),Bv. Los Granaderos,Villa El Libertador,3.0,1800,432,No,38.5,4.7,3.6,1.1,0.24,Bajo,120,51,102,44,6,18,34,Despejado,24,Ninguno,0
+583,30/03/2024,Lunes,18,Noche (18-24h),Av. Patria,Jardín,3.0,1200,1616,Sí,9.2,19.6,3.6,16.0,1.0,Crítico,90,45,108,61,4,10,82,Nublado,13,Ninguno,0
+584,06/01/2024,Domingo,19,Noche (18-24h),Av. Colón,Nueva Córdoba,1.5,1500,422,No,38.5,2.3,1.8,0.5,0.28,Bajo,120,42,102,33,7,34,21,Nublado,11,Accidente leve,3
+585,25/11/2024,Lunes,1,Madrugada (0-6h),Av. Vélez Sársfield,Alberdi,3.0,1800,826,No,35.7,5.0,3.6,1.4,0.46,Moderado,60,47,51,41,4,27,61,Llovizna,14,Ninguno,0
+586,13/02/2024,Jueves,19,Noche (18-24h),Av. Vélez Sársfield,Alberdi,3.0,1500,983,Sí,32.3,5.6,3.6,2.0,0.66,Alto,60,33,72,40,5,13,60,Despejado,14,Ninguno,0
+587,22/09/2024,Lunes,4,Madrugada (0-6h),Bv. Illia,Centro,2.5,1000,865,No,22.4,6.7,3.0,3.7,0.86,Crítico,90,40,76,53,2,15,65,Despejado,13,Accidente leve,11
+588,23/11/2024,Miércoles,10,Mañana (6-12h),Av. Fuerza Aérea,Cerro de las Rosas,3.0,1500,719,No,35.3,5.1,3.6,1.5,0.48,Moderado,60,45,51,44,5,25,49,Despejado,21,Ninguno,0
+589,04/05/2024,Viernes,1,Madrugada (0-6h),Av. Patria,Jardín,2.5,1000,734,No,25.1,6.0,3.0,3.0,0.73,Alto,75,44,63,61,7,22,41,Nublado,14,Ninguno,0
+590,08/10/2024,Martes,14,Tarde (12-18h),Av. Vélez Sársfield,Alberdi,1.5,1800,386,No,46.5,1.9,1.8,0.1,0.21,Bajo,60,54,51,51,6,29,60,Nublado,25,Ninguno,0
+591,30/07/2024,Viernes,22,Noche (18-24h),Bv. Illia,Centro,2.5,1000,734,No,20.8,7.2,3.0,4.2,0.73,Alto,120,40,102,51,4,39,26,Nublado,17,Ninguno,0
+592,06/07/2024,Miércoles,14,Tarde (12-18h),Av. Maipú,Centro,1.5,1500,764,No,31.5,2.9,1.8,1.1,0.51,Moderado,120,30,102,25,4,31,31,Lluvia,17,Ninguno,0
+593,24/12/2024,Lunes,16,Tarde (12-18h),Bv. Los Granaderos,Villa El Libertador,3.0,1000,837,No,22.2,8.1,3.6,4.5,0.84,Alto,90,49,76,65,2,35,41,Nublado,28,Ninguno,0
+594,01/02/2024,Martes,19,Noche (18-24h),Av. Colón,Nueva Córdoba,1.5,1000,1116,Sí,10.8,8.3,1.8,6.5,1.0,Crítico,120,53,144,67,5,12,75,Despejado,22,Accidente leve,7
+595,25/10/2024,Miércoles,3,Madrugada (0-6h),Bv. San Juan,General Paz,2.0,1000,434,No,39.6,3.0,2.4,0.6,0.43,Moderado,90,54,76,50,5,29,23,Despejado,33,Obra en vía,17
+596,30/01/2024,Sábado,8,Mañana (6-12h),Av. Poeta Lugones,Alta Córdoba,3.0,1500,484,No,35.1,5.1,3.6,1.5,0.32,Bajo,60,40,51,36,5,20,65,Despejado,27,Ninguno,0
+597,12/07/2024,Lunes,4,Madrugada (0-6h),Bv. Los Granaderos,Villa El Libertador,1.5,1200,517,No,39.8,2.3,1.8,0.5,0.43,Moderado,75,39,63,37,2,15,26,Nublado,9,Ninguno,0
+598,18/03/2024,Martes,2,Madrugada (0-6h),Av. Duarte Quirós,Centro,2.0,1000,581,No,33.8,3.6,2.4,1.2,0.58,Moderado,90,41,76,36,3,17,25,Llovizna,26,Accidente grave,18
+599,06/01/2024,Jueves,21,Noche (18-24h),Av. Patria,Jardín,3.0,1200,629,No,27.8,6.5,3.6,2.9,0.52,Moderado,60,30,51,25,2,24,51,Despejado,19,Ninguno,0
+600,04/07/2024,Viernes,15,Tarde (12-18h),Av. Fuerza Aérea,Cerro de las Rosas,3.0,1000,650,No,29.3,6.1,3.6,2.5,0.65,Alto,60,40,51,48,3,18,66,Lluvia,24,Ninguno,0
